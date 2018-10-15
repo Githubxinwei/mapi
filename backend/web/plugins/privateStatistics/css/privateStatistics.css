@@ -1,0 +1,173 @@
+.statisticsFlag{
+    width: 80px;
+    height: 80px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.attendClassBg{
+    background: #00e09e;
+}
+.colorClassBg{
+    color: #00e09e;
+}
+.flagImgCss{
+    width: 30px;height: 30px;
+}
+.hCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxFlagCss{
+    box-shadow: 0 0 2px #999;
+    border-radius: 6px;
+}
+.sellClassBg{
+    background-color: #ff9900;
+}
+.sellClassColor{
+    color: #ff9900;
+}
+.h80{
+    height: 80px;
+}
+.bGf0f3f4{
+    background-color:#f5f5f5 ;
+    padding: 0 30px;
+}
+.bgWhite{
+    background-color: #FFF;
+    margin-bottom: 20px;
+}
+.borderRadius3{
+    border-radius: 3px;
+    border:none;
+}
+.fwNormal{
+    font-weight: normal;
+}
+.wB90{
+    width: 90%;
+}
+.h34{
+    height: 34px;
+    line-height: 34px;
+}
+.w100{
+    width: 100px;
+}
+.mT6{
+    margin-top: 6px;
+}
+.bgWhite{
+    background-color: #FFF;
+}
+.orangeP{
+    font-size: 20px;
+    color: #ff9900;
+}
+.f24{
+    font-size: 24px;
+}
+.color999{
+    color: #999;
+}
+.mR10{
+   margin-right: 10px;
+}
+.birthdayBg{
+    background-color: #ffcc00;
+}
+.birthdayColor{
+    color: #ffcc00;
+}
+/*#main{*/
+    /*-moz-user-select: none; !*火狐*!*/
+    /*-webkit-user-select: none; !*webkit浏览器*!*/
+    /*-ms-user-select: none; !*IE10*!*/
+    /*-khtml-user-select: none; !*早期浏览器*!*/
+    /*user-select: none;*/
+/*}*/
+.modal-footer{
+    border-top: none;
+}
+.cp{
+    cursor: pointer;
+}
+.modal{
+    top:40px;
+}
+.f30{
+    font-size: 30px;
+}
+.loderBox{
+    position: relative;
+}
+.loaderDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -51px;
+
+}
+.loderModel > div{
+    background: #ed5565;
+    border: none;
+}
+.loadP{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+}
+.dataTables_wrapper{
+    padding-bottom: 0;
+}
+.select2-drop {
+    z-index: 10050 !important;
+}
+
+.select2-search-choice-close {
+    margin-top: 0 !important;
+    right: 2px !important;
+    min-height: 10px;
+}
+
+.select2-search-choice-close:before {
+    color: black !important;
+}
+/*防止select2不会自动失去焦点*/
+.select2-container {
+    z-index: 16000 !important;
+    height: 30px;
+}
+
+.select2-drop-mask {
+    z-index: 15990 !important;
+}
+
+.select2-drop-active {
+    z-index: 15995 !important;
+}
+.select2-container .select2-selection--single {
+    height:30px;
+}
+#select2-homePageVenueSelect123-container{
+    min-width: 200px;
+    z-index: 100 !important;
+}
+
+.lessonChart div:nth-of-type(1){
+    width:100% !important;
+}
+.lessonChart canvas{
+    width:100% !important;
+}
+.col-lg-2{
+    width: 13.666667%;
+}

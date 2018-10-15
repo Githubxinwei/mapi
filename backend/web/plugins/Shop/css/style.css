@@ -1,0 +1,82 @@
+
+.tdBtn{  opacity: 0;  }
+
+tr:hover .tdBtn { opacity: 1 }
+
+#modal_body2_ul li{margin-top: 15px;font-size: 16px;}
+#menu2 {margin-top: 0;cursor: pointer;}
+#menu2 li {font-size: 15px;}
+
+.search{height: 34px;line-height: 34px;}
+.panelBody{padding-left: 0;padding-right: 0;}
+.panelBodyContent{padding: 0;}
+#DataTables_Table_0_wrapper{padding-bottom: 0;}
+
+.myModals2Dialog{width: 70%;height: 500px;}
+.myModals2Dialog>div{height: 100%}
+
+#myModalLabel{text-align: center;}
+
+.myModals2Content>div:nth-of-type(2){height: 100%;padding-top: 10px;}
+.myModals2Content>div:nth-of-type(2)>div:nth-of-type(1){height: 100%;}
+.myModals2Content>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1){margin-top: -3px}
+
+#menu2{height: 160px;}
+#menu2>li:nth-of-type(1){margin-top: 0;margin-bottom: 5px;}
+
+.myModals2ModalBody>strong:nth-of-type(1){font-size: 20px;}
+.myModals2ModalBody>strong:nth-of-type(2){font-size: 13px;}
+.myModals2ModalFooter button{width: 75px;}
+
+.myModals2ModalRigthDiv{height: 370px; overflow: auto;}
+
+#commodityModification>div{width: 35%;height: 605px;}
+.commodityModificationInput{padding-right: 100px;padding-left:55px;margin-top: 30px;}
+.commodityModificationStrong{font-size: 14px;font-weight: normal!important;padding-right: 0;}
+.commodityModificationSpan{color: red;}
+
+.commodityModificationModalContent{}
+
+.goodsWarehousingModelInput{padding-right: 10px;padding-left: 10px;margin-top: 30px;}
+
+#commodityLoss>div{width: 35%;height: 605px;}
+
+#commodityOverflow>div{width: 35%;height: 605px;}
+#goodsOutOfStock>div{width: 35%;height: 605px;}
+#goodsOutOfStock1>div{width: 35%;height: 605px;}
+#commodityIncrease>div{width: 35%;height: 605px;}
+/*#commodityIncreaseForm{margin-left: -81px;}*/
+
+.commodityIncreaseInput{margin-left: 44px;padding-left: 20px;margin-top: 30px;}
+.boxModal-body{  margin-top: 20px; }
+.mrb20{ margin-bottom: 20px;  }
+.displayInlineBlock{display: inline-block}
+.ml200{margin-left: 200px;}
+.w222{  width: 222px;}
+.w120{width: 120px;}
+.fs15{font-size: 15px;}
+.fs14{font-size: 14px;}
+.pd0{padding: 0;}
+.mt15{margin-top: 15px;}
+.pt2{padding-top: 2px;}
+.w50h605{width: 50%;height: 605px;}
+.w35h605{width: 35%;height: 605px;}
+.commodityLossTextLabel{margin-left: -38px;font-size: 14px;font-weight: normal;}
+.commodityLossTextTextarea{margin-left: 29px; width: 183px;}
+.merchandiseReturnsLabel{margin-left: -40px;font-size: 14px;font-weight: normal;text-align: left;}
+.w183{width: 183px;}
+.w160{  width:160px;}
+.pr0{padding-left: 0;}
+.w150{width: 150px;}
+.w30{width: 30%;}
+.pll0{padding-left: 10px;}
+.pl10{padding-left: 20px;}
+.pr20{padding-right: 20px;}
+.w130{
+    width:130px;}
+.w100{ width:100px;}
+.w208{  width:200px;}
+.h150{height: 150px;}
+.ml0{margin-left: 0;}
+.spanSize{font-size: 16px;line-height: 30px;}
+.w110{width: 110px;}

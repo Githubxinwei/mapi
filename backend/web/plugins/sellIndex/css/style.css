@@ -1,0 +1,349 @@
+.pd0{
+    padding: 0;
+}
+#mySelectDate{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: 12px;
+    color: #999;
+    font-weight: normal;
+    float: right;
+    border: none;
+}
+.expireP{
+    position: absolute;
+    top: 24px;
+    right: 36px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #00e09e;
+}
+.noSignP{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff9900;
+}
+#dateIndex{
+    position: absolute;
+    top: 6px;
+    right: 30px;
+}
+.medal{
+    width: 30px;
+    position: absolute;
+    top: 6px;
+    left: 4px;
+}
+.numLists{
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    top: 8px;
+    left: 4px;
+}
+.bGf5{
+    background: #f5f5f5;
+}
+.mT10{
+    margin-top: 10px;
+}
+.pL0{
+    padding-left: 0;
+}
+.mB10{
+    margin-bottom: 10px;
+}
+.pL15{
+    padding-left: 15px;
+}
+.pR15{
+    padding-right: 15px;
+}
+.pd5{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.cp{
+    cursor: pointer;
+}
+.statisticsBoxCss{
+    background: #fff;
+    height: 80px;
+    border-radius: 6px;
+    position: relative;
+}
+.statisticsFlag{
+    width: 80px;height: 80px;border-radius: 6px;text-align: center;line-height: 60px;display: inline-block;position: relative;cursor: pointer
+}
+.expireBg{
+    background: #00e09e;
+}
+.statisticsFlag span{
+    color: #fff;position: absolute;bottom: 14px;right: 22px;line-height: 18px;font-size: 12px;
+}
+.statisticsFlag .positionFour{
+    color: #fff;
+    position: absolute;
+    bottom: 14px;
+    right: 16px;
+    ine-height: 18px;
+    font-size: 12px;
+}
+.notSign{
+    background: #ff9900;
+}
+.birthdayBg{
+    background: #ffcc00;
+}
+.birthdayColor{
+    color: #ffcc00;
+}
+.f14{
+    font-size: 14px;
+}
+.fwNormal{
+    font-weight: normal;
+}
+.fw{
+    font-weight: bold;
+}
+.f20{
+    font-size: 20px;
+}
+.addMemberBg{
+    background: #0066FF;
+}
+.addMemberColor{
+    color: #0066FF;
+}
+.saleMoneyBg{
+    background: #9966FF;
+}
+.saleMoneyColor{
+    color: #9966FF
+}
+.peopleNumBg{
+    background: #6699FF;
+}
+.peopleNumColor{
+    color:#6699FF;
+}
+.flagImgCss{
+    width: 30px;height: 30px;
+}
+.pdLr20{
+    padding: 0 20px;
+}
+.bgWhite{
+    background-color: #FFF;
+}
+#passengerMain{
+    height:340px;margin-top: 20px; display: none;
+}
+#sellMain{
+    height:340px;margin-top: 20px;
+}
+#sellMain div:nth-of-type(1){
+    width:100% !important;
+}
+#sellMain div:nth-of-type(1) canvas{
+    width:100% !important;
+}
+.pd20{
+    padding: 20px;
+}
+.pd2010{
+    padding: 20px 10px;
+}
+.pdLr10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pdLr0{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.statisticsTitle{
+    font-size: 16px;font-weight: bold;padding-top: 10px;padding-left:20px;padding-bottom: 10px;border: 1px solid #eee;border-width: 0 0 2px 0;
+}
+.statisticsTitle select{
+    font-size: 14px;color: #999;font-weight: normal;float: right;margin-right: 20px;border: none;
+}
+.pdL10R3{
+    padding-left: 10px;
+    padding-right: 3px;
+
+}
+.pdL17R10{
+    padding-left: 17px;
+    padding-right: 10px;
+
+}
+.wB80{
+    width: 80% !important;
+}
+.modalSelect{
+    font-size: 14px;color:#999;font-weight: normal;
+}
+.modalTitle{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.h580{
+    height: 580px;
+}
+.pdB0{
+    padding-bottom: 0px;
+}
+/*.modalContentBox{*/
+    /*height: 550px;*/
+/*}*/
+.classMain{
+    height: 450px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.classMain div:nth-of-type(1){
+    width:100% !important;
+}
+.classMain div:nth-of-type(1) canvas{
+    width:100% !important;
+}
+.orangeP{
+    font-size: 18px;
+    color: #ff6700;
+    font-weight: bold;
+    text-align: center;
+}
+#staffMian{
+
+}
+.smallYuan{
+    right: 14px;
+}
+.borderRadius3{
+    border-radius: 3px;
+    padding: 4px 12px;
+}
+.mL20{
+    margin-left: 20px;
+}
+.borderNone{
+    border:none;
+}
+.f16{
+    font-size: 16px;
+}
+#sourceDitchMain{
+    height: 400px;
+    margin-top: 20px;
+}
+#sourceDitchMain div:nth-of-type(1){
+    width:100% !important;
+}
+#sourceDitchMain div:nth-of-type(1) canvas{
+    width:100% !important;
+}
+.loderBox{
+    position: relative;
+}
+.loaderDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -51px;
+
+}
+.loderModel > div{
+    background: #ed5565;
+    border: none;
+}
+.loadP{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+}
+.h55{  height:55px;padding: 15px 20px 0 20px;}
+.w100{width: 110px;}
+.h25{height: 25px;}
+.h34{height: 34px;}
+.userSelectTime{width: 200px;}
+.w200{width: 200px}
+
+#datetimeStart1{width: 110px;}
+#datetimeStart2{width: 110px;}
+.selectCss{
+    padding: 4px 12px;
+}
+.noposition{
+    position: static!important;
+}
+.checkSelectG{
+    width: 120px!important;
+}
+.select2-drop {
+    z-index: 10050 !important;
+}
+
+.select2-search-choice-close {
+    margin-top: 0 !important;
+    right: 2px !important;
+    min-height: 10px;
+}
+.select2-container .select2-selection--single {
+    height:30px;
+}
+
+.select2-search-choice-close:before {
+    color: black !important;
+}
+/*防止select2不会自动失去焦点*/
+.select2-container {
+    z-index: 16000 !important;
+    height: 30px;
+}
+
+.select2-drop-mask {
+    z-index: 15990 !important;
+}
+
+.select2-drop-active {
+    z-index: 15995 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

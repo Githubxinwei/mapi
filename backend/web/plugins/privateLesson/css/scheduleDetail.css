@@ -1,0 +1,69 @@
+
+.coachLessonBox{padding: 0 15px;}
+#courseListBack{background-color: #ffffff;padding-bottom: 110px;}
+
+#courseListBack>div:nth-of-type(1){margin-bottom: 0;}
+.courseListBackDiv1{border: solid 1px #e5e5e5; background-color: #FFFFFF;padding: 10px;}
+
+#backPre>span{color: #999999;font-size: 20px;}
+.backPreDiv{color: #999999;}
+.backPreDivSpan{padding: 0 10px;}
+#courseListBack>div:nth-of-type(2){margin-left: 0px; margin-right: 0px;background-color: #E3EAF2;}
+#courseListBack>div:nth-of-type(3){margin-left: 0px; margin-right: 0px;border: solid 1px #e5e5e5;border-bottom: none;min-height: 600px;}
+
+.listsDivs3{margin-top: 0; }
+.hoverBox{background: #fff;width: 100%;padding: 10px;border: 1px solid #e1e1e1;border-width: 1px;position: relative;}
+
+.hoverBoxP{text-align: center;margin-bottom: 0;font-size: 14px;}
+
+#scheduleCourseDetail>div{width: 680px;}
+.scheduleCourseDetailDiv{border-right:solid 1px #e5e5e5;padding-left: 24px;padding-bottom: 30px;}
+.scheduleCourseDetailDiv>div:nth-of-type(1){width: 100%;}
+.scheduleCourseDetailDiv>div:nth-of-type(2){width: 100%;margin-top: 20px;color: #999;}
+.scheduleCourseDetailLi{margin-bottom: 10px;}
+.scheduleCourseDetailDiv2{padding-top: 50px;padding-left: 40px;}
+.scheduleCourseDetailDivLIAll{margin-bottom: 10px;}
+.scheduleCourseDetailDivButton{margin-top: 20px;}
+.searchMemberHeader{border-bottom: none;}
+.searchMemberBody{padding-bottom: 50px;}
+.searchMemberBodyDiv1{font-size: 20px;color: #666666;}
+
+#myReservationCourse{color: #666;}
+.addReservationCourseBodyDiv{border-right:solid 1px #e5e5e5;padding-left: 44px;padding-bottom: 30px;}
+.addReservationCourseBodyDiv>div:nth-of-type(1){width: 100%;}
+.addReservationCourseBodyDiv>div:nth-of-type(1)>img{width: 150px;height: 150px;border-radius: 50%;}
+.addReservationCourseBodyDiv>div:nth-of-type(2){width: 100%;margin-top: 20px;color: #999;}
+.addReservationCourseBodyDivLi{margin-bottom: 10px;font-size: 24px;font-weight: 700;color: #999;}
+
+.addReservationCourseBodyDiv2{padding-top: 50px;padding-left: 40px;}
+.addReservationCourseBodyDiv2Ul{display: flex;align-items: center;}
+/*.addReservationCourseBodyDiv2Ulli2Div{height: 50px;width: 200px;border: solid 1px #e5e5e5;}*/
+.addReservationCourseBodyDiv2Ulli2Div>div:nth-of-type(1){width: 50px;height: 100%;background-color: #e5e5e5;}
+.addReservationCourseBodyDiv2Ulli2Div input{width: 148px; height: 50px;line-height: 50px;text-align: center;}
+.addReservationCourseBodyDiv2Ulli2Div img{width: 50px; height: 100%;}
+.addReservationCourseBodyDiv2Ul{display: flex;align-items: center;}
+.addReservationCourseBodyDiv2Ul>li:nth-of-type(2){margin-top:10px;}
+.addReservationCourseBodyDiv3Ul{display: flex;align-items: center;}
+
+.startClass{width: 100%;border-radius: 3px;}
+.selectPrivateCourseModalHeader{display: flex;justify-content: space-between;}
+.courseListsww{margin-left: 20px;padding: 20px 36px 20px 0; border-bottom: solid 1px #e5e5e5;}
+.courseListsww>li:nth-of-type(2){margin-left: 16px;}
+.courseListswwLi>ul{margin-top: 4px;}
+.gradeImg{margin-top: 0px;}
+.courseListswwLiqqqq{color: #999999;margin-top: 4px;}
+
+
+.courseListsManyData{margin-left: 20px;padding: 20px 36px 20px 0; border-bottom: solid 1px #e5e5e5;}
+
+.marginTop1{margin-top: 8px;}
+.marginTop2{margin-left: 16px;}
+.marginTop3{margin-top: 4px;}
+.marginTop4{margin-top: 0px;}
+.marginTop5{margin-top: 8px;}
+.marginTop6{color: #999999;margin-top: 4px;}
+.width100{ text-align: left;}
+.pdLR0{
+    padding-right: 0;
+    padding-left: 0;
+}

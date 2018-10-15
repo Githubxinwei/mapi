@@ -1,0 +1,111 @@
+.pd0{
+    padding: 0;
+
+}
+.navBox{
+    padding: 14px 60px 0 0;
+    background: #fff;
+    border: solid #eee;
+    border-width: 0 0 1px 0;
+}
+.conditionBox{
+    padding: 0;
+    background: #fff;
+    border: solid #eee;
+    border-width: 0 0 1px 0;
+}
+.searchInput{
+    height: 37px;
+}
+.btnPd{
+    padding-top: 10px;
+}
+.conditionBox{
+    padding: 10px 20px;
+}
+.venueSelect{
+    padding-top: 4px;
+    width: 110px!important;
+}
+.moneyNum{
+    width: 80px;
+    height: 32px;
+    border: 1px solid #cfdadd;
+    border-radius: 2px;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.productTypeSelect {
+    padding: 0 10px;
+    width: auto;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+.bgw{
+    background: #fff!important;
+}
+.footerBox{
+    margin-left: 0px;
+    padding: 10px;
+    min-height: 56px;
+    line-height: 36px;
+}
+.orangeSpan{
+    color: #ff9900;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.w100{
+    width: 100px;
+}
+.infoBox{
+    padding-top: 30px;
+}
+.infoName{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #999;
+    font-weight: bold;
+}
+.infoName2{
+    padding-left: 180px;
+}
+.infoOther{
+    text-align: left;
+    color: #999;
+    font-size: 14px;
+}
+.infoOther2{
+    padding-left: 180px;
+}
+.cardImg{
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.rightContentBox{
+    border: solid #eee;
+    border-width: 0 0 0 1px;
+}
+.tableBox{
+    margin: 0!important;
+}
+.dateInput{
+    width: 260px;
+}
+.absolute{
+    position: absolute;
+}
+.classTypeSelect{
+    padding-top: 4px;
+}
+.userSelectDate{
+    width: 300px!important;
+}
+.printer{
+    margin-left:38px;
+}

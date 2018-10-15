@@ -1,0 +1,472 @@
+.panelBgColor{
+    background: #f5f7fa;
+    padding: 10px 0 0 0;
+}
+.disNl{
+    display: none;
+}
+.f20{
+    font-size: 20px;
+}
+.w100{
+    width: 100px;
+}
+.w200{
+    width: 200px !important;
+}
+.colorD9{
+    color: #999;
+}
+.w720{
+    width: 720px;
+}
+.pL0{
+    padding-left: 0;
+}
+.mT10{
+    margin-top: 10px;
+}
+.mB60{
+    margin-bottom: 60px;
+}
+.mT4{
+    margin-top: 4px;
+}
+.pRelative{
+    position: relative;
+}
+.h30{
+    height:30px;
+}
+.mB30{
+    margin-bottom: 30px;
+}
+.f18{
+    font-size: 18px;
+}
+.imgHeaderW100{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.bindingCabinetModelContent{
+    padding-top: 40px;
+    font-size: 14px;
+    padding-left: 0;
+}
+.searchMemberModal{
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.searchMemberModalDiv{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+}
+.searchMemberModalInput{
+    height: 40px;
+    border-radius: 100px
+}
+.mlF20{
+    margin-left: -20px;
+}
+.pT40{
+    padding-top: 40px;
+}
+.pT4{
+    padding-top: 4px;
+}
+.pr20{
+    padding-right: 20px !important;
+}
+.mLF22{
+    margin-left: -22px;
+}
+.colorGrey{
+    color: #999;
+}
+.wB40{
+    width: 40%;
+}
+.pL40{
+    padding-left: 40px;
+}
+.pR40{
+    padding-right: 40px;
+}
+.pT0{
+    padding-top: 0;
+}
+.pB0{
+    padding-bottom: 0;
+}
+.pL15{
+    padding-left: 15px;
+}
+.fontNormal{
+    font-weight: normal;
+}
+.textLeft{
+  text-align: left !important;
+}
+.mT7{
+    margin-top: 7px;
+}
+.mR20{
+    margin-right: 20px;
+}
+.wB80{
+    width: 80%;
+}
+.f14{
+    font-size: 14px;
+}
+.f20{
+    font-size: 20px;
+}
+.moneyCss{
+    font-size: 20px;
+    color: #ff9900;
+    font-weight: bold;
+}
+.pLR120{
+    padding-left: 120px;
+    padding-right: 120px
+}
+.mTB60{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.mB40{
+    margin-bottom: 40px;
+}
+.wB50{
+    width: 50%;
+}
+.searchMemberModalBtn{
+    border-radius: 0 100px 100px 0;
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 100px
+}
+.disNone{
+    display: none;
+}
+.pL30{
+    padding-left: 30px;
+}
+.titleHeader{
+    position: relative;
+    font-size: 18px;
+    padding-right: 40px;
+}
+.addCabinetBtnGreen{
+    position: absolute;
+    top: 6px;
+    right: 20px;
+}
+.pd10{
+    padding: 10px;
+}
+.pB0{
+    padding-bottom: 0;
+}
+.mL6{
+    margin-left: 6px;
+}
+.borderNone{
+    border:none;
+}
+.red{
+    color: red;
+}
+.addAreaModalContent{
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.addAreaModalLabel{
+    font-size: 14px;
+    color: #999;
+    font-weight: normal;
+}
+.navBox{
+    text-align: center;
+    background: #f5f7fa;
+    padding: 4px 0 4px 0;
+}
+.navBox>div{
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+.pd0{
+    padding-left: 0;
+    padding-right: 0;
+}
+/*导航点击的颜色*/
+.active{
+    color: #70cc29!important;
+}
+.backHistoryBox{
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+}
+.cabinetBox{
+    padding: 0 0 0 30px;
+    background: #fff;
+    height: 140px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+.cabinetBox>button {
+    font-size: 25px;
+    font-weight: 700;
+    background: #fff;
+    border: 0;
+    width: 40px;
+    height: 35px;
+    z-index: 9999;
+}
+.cabinetBox>h3{
+    font-size: 24px;
+    margin-top: 6px;
+    clear: both;
+}
+.cabinetBox>p{
+    color: #999;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.addBox{
+    padding-top: 26px;
+    text-align: center;
+    background: #fff;
+    height: 140px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #999;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+#page-wrapper{
+    background: #f5f7fa!important;
+}
+.box{
+    padding: 0 10px 0 10px;
+}
+.listBox{
+    background: #fff;
+}
+.titleh2{
+    padding: 14px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.title{
+    border-width: 0 0 1px 0;
+    border: 1px solid #eee;
+}
+.modal-title{
+    font-size: 16px;
+    text-align: center;
+}
+.iconBox{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    border: 1px solid #eee;
+    border-width: 0 1px 0 0;
+    text-align: center;
+}
+.iconBox>p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.iconBox>.iconName{
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+.cabinetName{
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+.infoBox>p{
+    margin-top: 10px;
+}
+/*去除input number 的箭头样式*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+.addTitle{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.formSmbox{
+    margin-top: 20px;
+}
+.formSmbox>label{
+    font-size: 14px;
+    color: #999;
+    font-weight: normal;
+    margin-right: 10px;
+}
+.formSmbox>select{
+    font-size: 14px;
+    height: 30px;
+    width: 200px;
+    color: #999;
+}
+.formSmbox>.moneyInput{
+    font-size: 14px;
+    height: 30px;
+    width: 200px;
+    color: #999;
+}
+.noNameBox{
+    margin-top: 20px;
+    position: relative;
+}
+.noNameBox>img{
+    opacity: 0.3;
+    cursor: pointer;
+}
+.iconNoName{
+    cursor: pointer;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+.selectBox>label{
+    font-size: 14px;
+    font-weight: normal;
+    color: #999;
+}
+.checkUl li{
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid #eee;
+    border-width: 0 0 1px 0;
+    font-size: 16px;
+    color: #999;
+    cursor: pointer;
+}
+.bgGrey{
+    color: #27c24c !important;
+    background-color: #e7eaec;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.tdBtn{
+    opacity: 0;
+}
+ tr:hover .tdBtn{
+    opacity: 1;
+}
+
+
+/*调柜样式*/
+.switchCabinetArea{
+    border: 1px solid #eee;
+    border-width:  0 1px 0 0;
+    height: 500px;
+    overflow-y: scroll;
+}
+.switchCabinetAreaCabinetNum{
+    height: 500px;
+    overflow-y: scroll;
+}
+.borderNone{
+    border:none;
+}
+.boxShowNone{
+   box-shadow: none;
+}
+.borderTopNone{
+    border-top: none;
+}
+.wB70{
+    width: 70%;
+}
+.op0{
+    opacity:0;
+}
+.heightCenter{
+    display: flex;
+    align-items: center;
+}
+.contentCenter{
+    display: flex;
+    justify-content: center;
+}
+.contentBetween{
+    display: flex;
+    justify-content: space-between;
+}
+.pL0{
+    padding-left: 0;
+}
+.pR0{
+    padding-right: 0;
+}
+.f18{
+    font-size: 18px;
+}
+.fw{
+    font-weight: 600;
+}
+/*.pLR20{
+    padding-left: 60px;
+    padding-right: 20px
+}*/
+.selectPd{
+    padding: 4px 12px;
+}
+.mL10{
+    margin-left: 10px;
+}
+/*新增矩阵css样式*/
+.matrix-block{
+    height:100px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    margin:10px;
+}
+.matrix-p-h{
+    padding:6px 0px;
+    font-size: 15px;
+    font-weight:bold;
+}
+.matrix-p-con{
+    padding:8px 0px;
+}
+.help-block{
+	color: #999;
+}
+
+.activeBox{
+    font-weight: bold;
+    color: #70cc29;
+    border-width: 0 0 2px 0;
+}
+

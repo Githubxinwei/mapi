@@ -1,0 +1,28 @@
+.h34px{height: 34px;}
+.none{display: none;}
+.block{display: block;}
+.border{border-top-left-radius: 10px;border-bottom-left-radius: 10px;}
+.noneblock{position: absolute;top: 30px;left: -100px;width: 120px;height: 100px;overflow: auto;z-index: 2000;background-image: url("/plugins/refundApproval/img/white.png");}
+
+.tdBtn{
+    opacity: 0;
+}
+
+tr:hover .tdBtn{
+    opacity: 1;
+}
+.w700px{width: 700px;}
+.h500px{height: 500px;}
+.pd0{padding: 0;}
+.h250px{height: 250px;}
+.borderRigth{border-right: solid 1px grey;}
+.borderBottom{border-bottom: solid 1px grey;}
+.borderTop{border-top: solid 1px grey;}
+.borderLeft{border-left: solid 1px grey;}
+.pd35px {  padding:35px;}
+.pt50px {padding-top: 50px;}
+.textAlignCenter{text-align: center;}
+.textAlignLeft{text-align: left}
+.pt30px {padding-top: 30px;}
+.h200px{height: 200px;}
+.mT10{margin-top: 10px;}

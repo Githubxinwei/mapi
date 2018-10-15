@@ -1,0 +1,66 @@
+.jiben{
+    font-size: 15px;
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+.select2-selection--single{
+    border-color: #cfdadd!important;
+}
+.pd0{
+    padding: 0;
+}
+.pdr0{
+    padding-right: 0;
+}
+.pdl0{
+    padding-left: 0;
+}
+@media screen and (max-width: 1366px){
+    .cardIdDiv{
+        padding-right: 0;
+    }
+}
+.formLabelSellCard{
+    padding-top: 4px!important;
+    color: #666;
+    font-weight: normal;
+}
+.formLabelSellCard>span{
+    color: red;
+}
+.inputSellCard>input{
+    font-size: 13px;
+}
+.inputSellCard>select{
+    font-size: 13px;
+}
+.codeBtnSellCard {
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    border-radius: 0 2px 2px 0;
+    font-size: 12px;
+}
+.inputSellCardNoBorder>input{
+    border-radius: 2px 0 0 2px;
+}
+.mrb20{
+    margin-bottom: 20px;
+}
+.mrt20{
+    margin-top: 20px;
+}
+.cardSelect{
+    height: 30px;
+}
+.inputSellCard{
+    padding-right: 0;
+}
+/*头部样式*/
+.headerStyle{
+    border: 1px solid #e5e5e5;
+}

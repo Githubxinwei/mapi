@@ -1,0 +1,157 @@
+.titleP{
+    font-size: 18px;
+    color: #333;
+}
+.pd0{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.tdBtn{
+    opacity: 0;
+}
+tr:hover .tdBtn{
+    opacity: 1;
+}
+table:hover .thBtn{
+    opacity: 1;
+}
+.borderNone{
+    border-width: 1px 1px 1px 0 !important;
+}
+.addCabinet{
+    margin-right: 20px;
+}
+.getDealType{
+    margin-top: 7px;
+    font-size: 14px;
+    color: rgb(35,183,229);
+}
+/*头部信息*/
+.header{
+    padding-right: 0;position: relative;
+}
+.headerWidth{
+    width: 140px;
+}
+.headerSure{
+    margin-left: 10px;position: absolute;top:0;right: 200px;
+}
+.headerSearch{
+    height: 34px;line-height: 34px;
+}
+.searchAdd{
+    text-align: right;
+}
+.searchAddButton{
+    font-size: 14px;margin-top: 5px;color: rgb(39,194,76);
+}
+/*合同列表*/
+.bodyList{
+    padding-left: 0;padding-right: 0;
+}
+.bodyList1{
+    font-size: 12px;color: #999;font-weight:normal;
+}
+.bodyHeader{
+    padding:0;border: none;
+}
+/*修改合同协议*/
+.updateContract{
+    padding-bottom: 20px;
+}
+.updateHeader{
+    margin-top: 10px;height: 2px;background: #e1e1e1;
+}
+.updateXieYi{
+    font-size: 14px;text-align: center;margin-top: 40px;font-weight: bold;
+}
+.contractFcuntion{
+    padding: 30px 80px 30px 80px;
+}
+.contractName{
+    font-size: 16px;font-weight: normal;color: #333;
+}
+.contractTypeHeader{
+    margin-top: 10px;
+    padding: 10px 0 0 20px;
+}
+.contractTypeBody{
+    font-size: 16px;font-weight: normal;color: #333;
+}
+.contractBody{
+    padding-top: 4px; width: 200px;
+}
+.contractBody1{
+    padding: 30px 30px 0 30px;
+}
+.contractBody2{
+    font-size: 16px;font-weight: normal;color: #333;
+}
+.contractWan{
+    margin-right: 10px;margin-top: 0px;
+}
+/*合同详情*/
+.contractDetail{
+    /*margin-left: 220px;*/
+}
+.contractDetailHeader{
+    margin-top: 50px;width: 50%;
+}
+.contractDetails{
+    font-size: 24px;text-align: center;
+}
+.contractDetailType{
+    line-height: 30px;
+}
+.addContract{
+    margin-top: 20px;
+}
+.addSearch{
+    font-size: 24px;margin-top: 20px;
+}
+.addContractList{
+    padding: 0 80px 0 80px;
+}
+.addWanCheng{
+    margin-right: 80px;margin-top: 20px;
+}
+/*编辑合同*/
+.editContract{
+    margin-top: 40px;border: none;
+}
+.editHeader{
+    padding:0;border: none;height: 360px;overflow: scroll;
+}
+.editContractName{
+    display: block;width: 80px;text-align: left;
+}
+.editWanCheng{
+    margin-right: 80px;margin-top: 20px;
+}
+.editContractDetail{
+    font-size: 24px;text-align: left;margin-top: 20px;margin-left: 10px;font-weight: normal;
+}
+.editContractHeader1 {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.addContractDetailType{
+    padding-left: 10px;padding-right: 10px;
+}
+.width100{
+    width: 100px;
+}
+.font14{
+    font-size: 14px;
+}
+.fontNormal{
+    font-weight: normal;
+}
+.mT20{margin-top: 20px;}
+.pdLR0{
+    padding-left: 0;
+    padding-right: 0;
+}

@@ -1,0 +1,249 @@
+.allNum{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #eee;
+    border-width: 0 0 2px 0;
+    margin-bottom: 0;
+}
+.cursor{
+    cursor: pointer;
+}
+.pd0{
+    padding: 0;
+}
+.pdlr10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bgf{
+    background: #f5f7fa;
+}
+.operationTitle{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    min-height: 25px;
+    height:auto;
+}
+.venueSelect{
+    height: 26px;
+    min-width: 130px;
+    max-width: 200px;
+}
+.venueSelect1{
+    height: 26px;
+    min-width: 130px;
+    max-width: 200px;
+}
+#dateIndex{
+    position: absolute;
+    left: 10px;
+    top: -2px;
+    font-size: 13px;
+    font-weight: normal;
+    width:18%;
+}
+.dateTitle{
+    display: inline-block;
+    height: 26px;
+    line-height: 24px;
+    width: 100px;
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-weight: bold;
+}
+.inputTitle1 {
+    font-weight:400;
+    font-size: 13px;
+}
+.inputTitle2 {
+    font-weight:400;
+    font-size: 13px;
+}
+.span2{
+    height: 26px;
+    line-height: 26px;
+    width: 100px;
+    text-align: center;
+    float: left;
+    background: #eee;
+    border: none;
+    color: #333;
+    font-weight: bold;
+}
+.pdl20{
+    padding-left: 20px;
+    width:25%;
+}
+.comSpan{
+    position: absolute;
+    right: 10px;
+    margin-top: 2px;
+    font-size: 13px;
+    font-weight: normal;
+    margin-right: 20px;
+    cursor: pointer;
+    color: #999;
+}
+.comSpan:hover{
+    color: #666;
+}
+.pd20{
+    padding: 20px;
+}
+#main{
+
+    height: 360px;
+}
+#main div:nth-of-type(1){
+    width:100% !important;
+
+}
+#main div:nth-of-type(1) canvas{
+    width:100% !important;
+}
+#mainCard{
+    height: 500px;
+}
+#mainClass{
+    height: 500px;
+}
+.comBox{
+    height: 455px;
+    background: #fff;
+    width:75%;
+}
+.allStatistics{
+    height: 455px;
+    background: #fff;
+}
+.numPAll{
+    margin-top: 30px;
+    font-size: 48px;
+    line-height: 48px;
+    color: #66cc00;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.textP{
+    padding-bottom: 30px;
+    border: 1px solid #eee;
+    border-width: 0 0 1px 0;
+}
+.lineG{
+    margin-top: 8px;
+    border: 1px solid #eee;
+    border-width: 0 0 1px 0;
+}
+.man{
+    text-align: center;
+    font-size: 24px;
+    color: #3399ff;
+    font-weight: bold;
+    border: 1px solid #eee;
+    border-width: 0 1px 0 0;
+    box-sizing: border-box;
+}
+small{
+    font-size: 15px;
+}
+.woman{
+    text-align: center;
+    font-size: 24px;
+    color: #fd9527;
+    font-weight: bold;
+}
+.cardBox{
+    padding: 20px 10px;
+}
+.pdr10{
+    padding-right: 10px;
+}
+.pdl10{
+    padding-left: 10px;
+}
+.smallSBox{
+    background: #fff;
+}
+.pd40{
+    padding: 20px 40px;
+}
+.boxWhite{
+    background: white!important;
+}
+.loderBox{
+    position: relative;
+}
+.loaderDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -51px;
+
+}
+.loderModel > div{
+    background: #ed5565;
+    border: none;
+}
+.loadP{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+}
+.lineB{
+    border: solid #DDDDDD;
+    border-width: 0 0 1px 0;
+    margin: 0;
+}
+.pdtb15{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.float{
+    float: left!important;
+    padding-right: 15px!important;
+    padding-left: 15px!important;
+}
+.fontStyleSelect{
+    padding-top: 4px;
+    font-size: 13px;
+    padding-left: 6px;
+    margin-left: -100px;
+    width: 95px;
+}
+.pdr0{
+    padding-right: 0;
+}
+.pdl0{
+    padding-left: 0;
+}
+.btnSm{
+    padding-top: 4px;
+    padding-bottom: 4px
+}
+.numBox{
+    font-size: 14px;
+    line-height: 30px;
+    color: #999;
+}
+.ibox{
+    border: none;
+}
+.input-group .form-control{
+    width: 70%;
+}
+.peopleImg{
+    width: 50px;
+    height: 50px;
+}

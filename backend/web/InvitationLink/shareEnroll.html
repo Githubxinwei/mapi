@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1, user-scalable=0">
+		<title>报名</title>
+		<link rel="stylesheet" href="shareEnroll.css" />
+		<link rel="stylesheet" href="lib/style.css" />
+		<script src="lib/jquery-1.11.3.min.js"></script>
+		<script src="lib/popups.js"></script>
+		<script src="shareEnroll.js"></script>
+	</head>
+	<body class="body">
+		<section class="bgBox">
+			<img class="bgImg" src="images/Group.png"/>
+			<div class="enrolBox">
+				<div class="enrolTitle">报名</div>
+				<div class="enrolPrompt">填写下列信息，即可与好友  <span class="friendName">某某某</span> 一起 上课～</div>
+				
+				<div class="registerBox">
+					<div class="listBox f16">
+						<div class="listTitle">姓名</div>
+						<input class="listInput" id="memberName" type="text" />
+					</div>
+					<div class="listBox f16">
+						<div class="listTitle">手机号码</div>
+						<input class="listInput"  id="memberPhone" type="number" />
+					</div>
+				</div>
+				
+				<div class="interestBox">
+					<div class="interestTitle ">您对哪一方面感兴趣</div>
+					<div class="interestLists f16">
+						<div data-index="1" class="interestList ">减脂</div>
+						<div data-index="2" class="interestList ">塑性</div>
+						<div data-index="3" class="interestList ">增肌</div>
+						<div data-index="4" class="interestList ">康复</div>
+						<div data-index="5"  class="interestList noInterest">还没想法，不了解</div>
+					</div>
+				</div>
+				
+				<div class="submitBox">
+					<button class="submitBtn f16">提交</button>
+				</div>
+			</div>
+		</section>
+		
+	</body>
+</html>

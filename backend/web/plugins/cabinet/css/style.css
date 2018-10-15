@@ -1,0 +1,51 @@
+/*2017-4-5 css by suyu*/
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6{
+    font-family: "Microsoft YaHei",微软雅黑,"Helvetica Neue",Helvetica,Tahoma,Arial,"WenQuanYi Micro Hei", sans-serif;
+}
+.pd0{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.tdBtn{
+    opacity: 0;
+}
+tr:hover .tdBtn{
+    opacity: 1;
+}
+.br0{
+    border: none;
+}
+.spanBig{
+    position: relative;
+}
+.spanBox{
+    display: none;
+    position: absolute;
+    top: 4px;
+    left: 190px;
+}
+.checkBigBox{
+ }
+.checkBigBox label{
+    padding: 0;
+}
+.checkBigBox label{
+    margin-left: 0;
+}
+#searchsBox{
+    height: 200px;
+    overflow-y: scroll;
+}
+#searchLi{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+#searchLi:hover{
+    color: #fff;
+    background: #0e9aef;
+}

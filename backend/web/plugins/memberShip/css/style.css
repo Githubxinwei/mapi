@@ -1,0 +1,329 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+.pd0{
+    padding: 0;
+}
+.registerBgBox{
+    background: #000;
+}
+.bgBox{
+}
+.logo{
+    margin-top: 60px;
+}
+.logoWord{
+    margin-top: 16px;
+    padding-left: 130px;
+    color: #fff100;
+    font-size: 18px;
+}
+.mrt80{
+    margin-top: 80px;
+}
+.registerForm>label{
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    float: left;
+    padding-top: 4px;
+}
+.registerForm>input{
+    width: 70%!important;
+    height: 36px;
+    background: #000;
+    color: #fff;
+    float: left;
+    margin-left: 6%;
+}
+.registerForm>select{
+    width: 70%!important;
+    height: 36px;
+    background: #000;
+    color: #fff;
+    padding-left: 4px;
+    font-size: 14px;
+    float: left;
+    margin-left: 6%;
+}
+.registerForm>.w180{
+    width: 35%!important;
+}
+.registerForm>a{
+    display: inline-block;
+    font-size: 18px;
+    color: #999;
+    padding-top: 4px;
+}
+.registerForm>a:hover{
+    color: #fff100;
+}
+.positionRelative{
+    position: relative;
+}
+.formSubmit{
+    width: 280px!important;
+    font-size: 18px;
+    background: #000;
+    color: #fff100!important;
+    position: absolute;
+    left: 50%;
+    margin-left: -140px;
+}
+.indexBgBox{
+    background: #fff;
+}
+.indexTitle{
+    margin-top: 160px;
+    font-size: 36px;
+    color: #000;
+    font-weight: bold;
+}
+.indexTitle2{
+    margin-top: 10px;
+    font-size: 34px;
+    color: #000;
+    font-weight: 100;
+}
+.ball-scale-multiple > div{
+    background-color: #999;
+    width: 70px;
+    height: 70px;
+}
+.indexAnimateBox{
+    position: absolute;
+    top: 70px;
+    left: 220px;
+}
+.leftBtn{
+    float: left;
+    width: 200px;
+    height: 50px;
+    line-height: 36px;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.5s all ease;
+}
+.leftBtn:hover{
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+}
+.rightBtn{
+    float: right;
+    width: 200px;
+    height: 50px;
+    line-height: 36px;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.5s all ease;
+}
+.rightBtn:hover{
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+}
+.cardBgBox{
+
+}
+.addCardCategoryTitleBox{
+    background: #000;
+    color: #fff100!important;
+}
+.delectBtn{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #999;
+}
+.homeBtn{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #999;
+}
+.nameTitleUser{
+    position: absolute;
+    right: 80px;
+    top: 40px;
+    font-size: 18px;
+    color: #999;
+}
+.old{
+    cursor: pointer;
+    font-size: 16px!important;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.5s all ease;
+}
+.old:hover{
+    background: #fff;
+    color: #000;
+}
+.ulCardBox{
+    margin-top: 40px;
+}
+.cardCategoryTitleBox{
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    height: 36px;
+    line-height: 36px;
+    width: 100px;
+    text-align: center;
+    border-radius: 16px;
+}
+.cardCategoryTitleBox:hover{
+    color: #fff100;
+}
+.imgWord{
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 5px;
+}
+.imgWord2{
+    font-size: 12px;
+    color: #fff;
+    margin-top: 0;
+}
+.h180{
+    height: 180px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.3s all ease;
+    overflow: hidden;
+}
+.cardName{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.cardImg{
+    background: #ecc130;
+    height: 150px;
+    border-radius: 6px;
+    transition: 0.5s all ease;
+}
+.h180:hover{
+    box-shadow: 5px 5px 10px #999;
+}
+.h180:hover .imgWord3{
+    display: block;
+}
+.h180:hover .imgWord4{
+    display: block;
+}
+.h180:hover .imgWord5{
+    display: block;
+}
+.h180:hover .cardImg{
+    background: #7a6d41;
+}
+.bigbox{
+    margin-top: 20px;
+    height: 570px;
+    overflow-y: auto;
+}
+.imgWord3{
+    display: none;
+    margin-top: 24px;
+    font-size: 16px;
+    color: #fff;
+}
+.imgWord4{
+    display: none;
+    margin-top: 10px;
+    color: #fff100;
+    font-size: 18px;
+    font-weight: bold;
+}
+.imgWord5{
+    display: none;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+.h180:hover .imgWord{
+    display: none;
+}
+.h180:hover .imgWord2{
+    display: none;
+}
+.detailsBgBox{
+    background: #000;
+}
+.cardDetailsName{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 0;
+}
+.cardDetailsNameBlod{
+    font-size: 18px;
+    font-weight: bold;
+}
+.detailsHr{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 1px;
+    background: #fff100;
+    opacity: .3;
+}
+.cardInfoWords{
+    margin: 5px 0;
+    font-size: 16px;
+    color: #fff;
+}
+.classNameTicBox{
+    height: 60px;
+    overflow-y: auto;
+    padding-bottom: 10px;
+}
+.classNameTic{
+    display: inline-block;
+    margin: 10px 10px 0 0;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff100;
+    border: 1px solid #fff100;
+    border-radius: 5px;
+    text-align: center;
+}
+.money{
+    font-size: 24px;
+    color: #fff100;
+    font-weight: bold;
+}
+.protocol>label{
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+}
+.lookPro{
+    margin-left: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+.buyBtn{
+    font-size: 16px;
+    margin-top: 20px;
+    height: 40px;
+    color: #fff100!important;
+    width: 180px;
+    background: #000;
+}
+.picClick{
+    cursor: pointer;
+}

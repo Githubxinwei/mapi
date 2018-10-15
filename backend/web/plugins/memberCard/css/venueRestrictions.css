@@ -1,0 +1,21 @@
+
+
+/*表单验证  制定场馆限制*/
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+
+
+#form3{width: 300px;}
+#form3{width: 215px;height: 100%;margin:  0 auto;border-bottom: solid 1px gray;padding-bottom: 10px;}
+#form3 input{width: 100%;height: 37px;}
+
+
+
+#form3>div:nth-of-type(1) p{float: right;position: relative;top:-28px;left: -13px;}
+#form3>div:nth-of-type(1) input[type='checkbox']{width: 13px;height: 13px;position: relative;top: 2px; }
+
+#form3 #addCalss{text-align: left; }
+#form3 #addCalss>section{width: 100%;height: 1px;background: grey;}
+#form3 #addCalss>div:nth-of-type(1){text-align: center;margin-top: 10px;border-radius: 5px;width: 100%;}
+

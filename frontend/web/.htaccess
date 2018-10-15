@@ -1,0 +1,4 @@
+RewriteEngine ON
+RewriteCond	%{REQUEST_FILENAME}	!-f
+RewriteCond	$1	!^(index\.php|robots\.txt|favicon\.ico|Sitemap\.xml|pma)
+RewriteRule	^(.*)$	index.php/$1 [L]

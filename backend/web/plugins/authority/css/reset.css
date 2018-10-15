@@ -1,0 +1,128 @@
+body,
+div,
+section,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+a,
+p,
+input,
+form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+a:hover{
+    color: none;
+    text-decoration: none;
+}
+.of {
+    overflow: hidden;
+}
+.fw{
+    font-weight: bold;
+}
+.w250{
+    width: 250px;
+}
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: '';
+    visibility: hidden;
+    height: 0;
+}
+
+.f12{
+    font-size: 12px;
+}
+.f14 {
+    font-size: 14px;
+}
+.f16 {
+    font-size: 16px;
+}
+.f20 {
+    font-size: 20px;
+}
+.f28{
+    font-size: 28px;
+}
+.f25 {
+    font-size: 25px;
+}
+
+.f36 {
+    font-size: 36px;
+}
+.f40{
+    font-size: 40px;
+}
+.grey {
+    color: #555555;
+}
+.mT10{
+    margin-top: 10px;
+}
+
+.herHover:hover {
+    color: #E5E5E5;
+}
+
+.img {
+    width: 100%;
+    display: block;
+}
+.dis_none{
+    display: none;
+}
+.dis_block{
+    display: block;
+}
+.mT20{
+    margin-top: 20px;
+}
+.mT30{
+    margin-top: 30px;
+}
+/*显示小手*/
+
+.cp {
+    cursor: pointer;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/*白色背景*/
+
+.bg_w {
+    background-color: #FFFFFF;
+}

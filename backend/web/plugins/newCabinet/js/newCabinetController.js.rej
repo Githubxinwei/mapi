@@ -1,0 +1,10 @@
+diff a/backend/web/plugins/newCabinet/js/newCabinetController.js b/backend/web/plugins/newCabinet/js/newCabinetController.js	(rejected hunks)
+@@ -420,7 +420,7 @@
+             return;
+         }
+ 
+-        if($scope.theAmountPayable == null || $scope.theAmountPayable == undefined || $scope.theAmountPayable == ''){
++        if($scope.cabinetDays == null || $scope.cabinetDays == undefined || $scope.cabinetDays == ''){
+             Message.warning("请输入租柜天数!");
+             return;
+         }

@@ -1,0 +1,102 @@
+/*style css by suyu 2017-3-29*/
+.pd0{
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+.orangeBox,.blueBox,.purpleBox,.whiteBox{
+    border-radius: 10px;
+    margin: 10px;
+    background: #FF9900;
+    transition: all 0.5s ease;
+}
+.blueBox{
+    background: #23B7E5;
+}
+.purpleBox{
+    background: #7266BA;
+}
+.orangeBox p,.blueBox p,.purpleBox p,.whiteBox p{
+    margin-bottom: 4%;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+.whiteBox p{
+    color: #999;
+}
+.blueBox p:last-child{
+    margin-bottom: 16%;
+}
+.orangeBox p:last-child{
+    margin-bottom: 16%;
+}
+.purpleBox p:last-child{
+    margin-bottom: 16%;
+}
+.whiteBox p:last-child{
+    margin-bottom: 16%;
+}
+.pd0 .dueMember{
+    margin-top: 20%;
+    font-size: 48px;
+}
+.whiteBox .dueMember{
+    color: #23B7E5;
+}
+/*hover*/
+.orangeBox:hover{
+    box-shadow: 2px 2px 2px #999;
+}
+.blueBox:hover{
+    box-shadow: 2px 2px 2px #999;
+}
+.purpleBox:hover{
+    box-shadow: 2px 2px 2px #999;
+}
+.whiteBox:hover{
+    box-shadow: 2px 2px 2px #999;
+}
+.whiteBox{
+    background: #fff;
+}
+.whiteBox .blue{
+    color: #23B7E5;
+}
+.whiteBox .purple{
+    color: #7266BA;
+}
+.whiteBox .orange{
+    color: #ff9900;
+}
+.white{
+    background: #fff;
+}
+.statisticsBox{
+    margin-top: 10px;
+}
+.statisticsBox h5{
+    font-size: 18px;
+    font-weight: normal;
+    color: #999;
+}
+.iconDiv{
+}
+.iconDiv button{
+    position: relative;
+    left: 50%;
+    margin-left: -18px;
+    text-align: center;
+}
+.iconDiv2 button{
+    position: relative;
+    left: 50%;
+    margin-left: -20px;
+    text-align: center;
+}
+.container-fluid{
+    background: #f5f5f5;
+}
+
+

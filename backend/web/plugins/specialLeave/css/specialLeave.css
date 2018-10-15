@@ -1,0 +1,41 @@
+/*
+特殊请假页面css
+*/
+.pdLr0{
+    padding-left: 0;
+    padding-right: 0;
+}
+tr:hover .tdBtn{
+    opacity: 1;
+}
+
+.tdBtn{
+    opacity: 0;
+}
+.w200{
+    width: 200px;
+}
+.selectCss{
+    padding: 4px 12px;
+}
+.w160{
+    width: 160px;
+}
+.select2-container--default .select2-selection--single {
+    height: 30px;
+}
+.mR10{
+    margin-right: 10px;
+}
+.w300{
+    width: 300px;
+}
+.mT10{
+    margin-top: 10px;
+}
+.w100{
+    width: 100px;
+}
+.red{
+    color: red;
+}

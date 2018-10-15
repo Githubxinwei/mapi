@@ -1,0 +1,121 @@
+.userName{
+    position: relative;
+    margin-right: 20px;
+    z-index: 10000;
+    color: #000;
+
+}
+.userNameImg img{
+    margin: 5px 0;
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 50%;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearFix{
+    zoom: 1;
+}
+.clearFix:after{
+    display: block;
+    height: 0;
+    clear: both;
+    content: '';
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: #5E5E5E;
+}
+a:hover{
+    color: none;
+}
+a:visited{
+    color: none;
+}
+ul,li{
+    list-style: none;
+}
+ul>.NameMess{
+    display: flex;
+}
+.cp{
+    cursor: pointer;
+}
+.userNameDetail ul{
+    padding: 10px;
+}
+.userNameDetail ul li{
+    padding-bottom: 10px ;
+}
+.nameImgBox{
+    width: 60px;
+    height: 60px;
+}
+.userNameDetail{
+    width: 240px;
+    height: 200px;
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #FFF;
+    box-shadow:0 0 5px black;
+}
+.userNameDetail .NameMess{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+.userNameBigImg  img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: solid 1px grey;
+}
+.NameMessNews{
+    text-align: center;padding-top: 7px; display: inline-block;width: 107px;height: 30px;margin-top: 20px;background: rgb(243,245,247);
+}
+.userNameDetail .personageSet{
+    text-align: center;padding-top: 7px; display: inline-block;width: 107px;height: 30px;margin-top: 20px;background: rgb(243,245,247);
+
+}
+.userNameDetail .exit{
+    text-align: right;display: inline-block;width: 100%;margin-top: 20px;
+}
+
+.loginName{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+@media  screen and (max-width: 767px) {
+    .userName{
+        display: none;
+    }
+}
+.wY{
+    background: #00cc00;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+}
+.iconCompony{
+    color: #fff;
+    display: inline;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0!important;
+}

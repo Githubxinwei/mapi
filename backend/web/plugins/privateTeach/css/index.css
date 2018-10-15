@@ -1,0 +1,66 @@
+
+
+
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+
+main{width: 100%;background-color: #f0f3f4}
+
+main h3{margin: 0;}
+main>section:nth-of-type(1){width: 100%;height: 60px; margin: 0;background-color: #F5F7FA;}
+main>section:nth-of-type(1)>div:nth-of-type(1){padding-left: 3%;padding-top: 10px;width: 25%;}
+main>section:nth-of-type(1) input{text-indent:10px;}
+
+.nav_search{width: 50%;padding-top: 15px;}
+main>section:nth-of-type(1)>div:nth-of-type(2)>input,
+main>section:nth-of-type(1)>div:nth-of-type(2) span{display: inline-block;}
+.nav_search>input{border-bottom-right-radius: 0;border-top-right-radius: 0;border-right: none;}
+.nav_search>span{position: relative;left: -3px;  top: -1px;}
+.nav_search>span>button{height: 33px;width: 50px;}
+
+main>section:nth-of-type(1)>div:nth-of-type(3){width: 25%;height: 59px;text-align: center;padding: 20px; position: relative;}
+main>section:nth-of-type(1)>div:nth-of-type(3) a{color: green;}
+
+
+#search{color: grey;height: 47px;padding-left: 30px;}
+.nav-pills > li:nth-child(1){padding-top: 7px;}
+.nav-pills > li:nth-child(2){padding-top: 10px;margin-left: 20px;display: inline-block;}
+.nav-pills > li:nth-child(2)>label>span{position: relative;  top: 8px;}
+.nav-pills > li:nth-child(3){padding-top: 10px;margin-left: 50px;}
+.nav-pills > li:nth-child(3) input{width: 80px;display: inline-block;}
+.ibox-title{height: 100%;width: 100%;border-bottom: solid 1px rgb(246,246,248);}
+
+
+.ibox-content{border-top: none;}
+/*th{width: calc(100%/5)}*/
+/*td{}*/
+
+#addSpan{width: 116px;}
+
+#title{height: 40px;width: 100%; padding-top: 10px;background-color: rgb(255,255,255)}
+
+
+
+.spanClass{text-align: center;width: 100%;height: 40px;padding-top: 10px;background: #F8F8F8;}
+
+
+main>section:nth-of-type(3){ width: 100%;background-color: #FFFFFF}
+main>section:nth-of-type(3) div{height: 40px;}
+main>section:nth-of-type(3) div div{display: inline-block; width: calc(100%/5); text-align: center;padding-top: 10px;}
+
+
+main>section:nth-of-type(4){height: 300px;width: 100%;background-color: #FFFFFF}
+main>section:nth-of-type(4) div{height: 40px;}
+main>section:nth-of-type(4) div div{display: inline-block;height: 45px; width: calc(100%/5); text-align: center;padding-top: 10px;}
+
+
+.displayBlock{opacity: 0;}
+
+
+
+
+
+
+
+

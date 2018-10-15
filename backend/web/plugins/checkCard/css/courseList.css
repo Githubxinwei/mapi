@@ -1,0 +1,40 @@
+.containerFluidMain{background-color: #FFFFFF;margin-top: 10px;border-radius:6px ;}
+.mb0{margin-bottom: 0;}
+.iboxTitleStyle{border: solid 1px #e5e5e5; background-color: #FFFFFF;padding: 10px;}
+.backPreSpan{color: #999999;font-size: 20px;}
+.color999{color: #999999;}
+.ml0{margin-left: 0;}
+.mr0{margin-right: 0;}
+.backgroundE3EAF2{background-color: #E3EAF2;}
+.borderSolid{border: solid 1px #e5e5e5;}
+.mt0{margin-top: 0;}
+.backbutton1{float: right;margin-top: 20px;margin-bottom: 10px}
+.textAlignCenter{text-align: center}
+.optionalItem{width: 23px;height: 30px;border: solid 1px #e5e5e5;}
+.mt-17{margin-top: -17px;}
+.mt20{margin-top: 20px;}
+.borderRightNone{border-right: none; }
+.appointment{display: flex;justify-content: center;}
+.w100{  width:100px;}
+.myModalCompleteRow{display: flex;align-items: center;margin-bottom: 20px;}
+.color33BC7B{color: #33BC7B;}
+.padding{padding: 6px 20px;}
+.mr20{margin-right: 20px;}
+.totalRowsDiv{width: 26px;display: inline-block;}
+.spanCenterHeight1{position: absolute; top: 30px;  left: 58px;}
+.spanCenterHeight{position: absolute; top: 30px;  left: 53px;}
+.spanCenterHeight3{position: absolute; top: 30px;  left: 62px;}
+.notSelect{
+    background: rgba(255,0,0,.7)!important;
+}
+.notVipSelect{
+    background: url("/plugins/checkCard/img/novip.png") no-repeat 0 0!important;
+    background-size: 100% 100%!important;
+}
+
+
+
+
+
+
+

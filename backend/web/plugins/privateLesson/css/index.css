@@ -1,0 +1,454 @@
+#PrivateTimetable{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-left: 0;padding-right: 0;
+}
+#PrivateTimetable>div{border: none;}
+.nameChooseBox {
+    width: 495px;
+    border: 1px solid #cfdadd;
+    margin-top: -2px;
+}
+.nameChooseBox > ul > li {
+    padding: 6px 12px;
+    cursor: pointer;
+    color: #000;
+}
+.nameChooseBox>ul>li.active {
+    background: #9c9c9c;
+    color: #fff;
+}
+.panel-default>div:nth-of-type(1){border-bottom: solid 1px #e5e5e5}
+.panelBody{min-height: 600px;background: #fff;padding: 0;}
+.panelBodyDiv1{border-bottom: solid 1px #e5e5e5;height: 40px;margin-top: 10px;}
+.panelBodyDiv1 select{width: 140px;padding-bottom: 3px;}
+.panelBodyDiv1Img{width: 71px;height: 71px;margin-top: 16px;border-radius: 50%;}
+.panelBodyDiv1ImgSamll{width: 17px}
+
+.PrivateTimetable1{display: block}
+.PrivateTimetable1>div:nth-of-type(1){border-bottom: solid 1px #e5e5e5;margin-left: 0;margin-right: 0;}
+.PrivateTimetable1>div:nth-of-type(1) input{height: 34px;line-height: 7px;}
+
+.iboxContent1{padding: 0;border-width: 0;}
+
+
+
+
+
+.h200px{height: 200px;}
+
+
+
+.yanse{
+    color: red;
+}
+.active{
+    color: #23ad44;
+}
+@media screen and (max-width: 1280px){
+    .contentBoxText{
+        padding-left: 40px;
+    }
+}
+
+
+/*自定义栅格*/
+.col-xs-1-7,.col-sm-1-7,.col-md-1-7,.col-lg-1-7 {
+    min-height: 1px;
+    /*padding-left: 15px;*/
+    /*padding-right: 15px;*/
+    position: relative;
+}
+
+.col-xs-1-7 {
+    width: 14.28%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-1-7 {
+        width: 14.28%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-1-7 {
+        width: 14.28%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-1-7 {
+        width: 14.28%;
+        float: left;
+    }
+}
+/*.lists{*/
+
+    /*border-right:solid 1px #e5e5e5;*/
+/*}*/
+.lists ul{
+    min-height:100px;
+    /*border-collapse:collapse;*/
+    border-left: solid 1px #e5e5e5;
+    border-right: solid 1px #e5e5e5;
+    /*margin-right: -1px;*/
+    margin-left: -1px;
+    margin-bottom: -1px;
+}
+.borderR,
+.weekDate{
+    border-bottom: solid 1px #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    margin-left: -1px;
+    margin-bottom: -1px;
+}
+.weekDate {
+    border-right:solid 1px #e5e5e5;
+    padding-left:0px ;
+    margin-left: 0px;
+}
+.lists ul{
+    padding-left:0px ;
+    margin-left: 0px;
+}
+.weekDate>li{
+    padding-left: 0;
+}
+.weekDate>li:nth-child(1){
+    color: #666;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.weekDate>li:nth-last-child(1){
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+.borderR>li{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+}
+.borderR>li:nth-child(1){
+    padding-top: 16px;
+    padding-bottom: 4px;
+}
+.borderR>li:nth-child(2){
+    font-weight: bold;
+    color: #999999;
+}
+.pd0{
+    padding-left: 0;
+    padding-right: 0;
+}
+.hoverBox{
+    opacity: 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hoverBox2{
+    opacity: 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addBox{
+    cursor: pointer;
+    background:#fff;
+    width:100%;
+    padding:10px;
+    border:1px solid #e1e1e1;
+    border-width:1px;
+    position:relative;
+    height: 104px;
+}
+.addBox2{
+    cursor: pointer;
+    background:#fff;
+    width:100%;
+    padding:10px;
+    border:1px solid #e1e1e1;
+    border-width:1px;
+    position:relative;
+    height: 104px;
+}
+.hoverBox:hover{
+    opacity: 1;
+    transition: 0.5s ease all;
+    cursor: pointer;
+}
+.hoverBox2:hover{
+    opacity: 1;
+    transition: 0.5s ease all;
+    cursor: pointer;
+}
+.dateCurrent{color:rgb(255,255,255);font-weight: bold; }
+.dateCurrents{color: yellowgreen; font-weight: bold;}
+.lightGreen{
+    color: #30BF78;
+}
+.mL20{
+    margin-left: 20px;
+}
+.red{
+    color: red;
+}
+.courseMessage{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #999999;
+}
+#courseMessageLists li{
+margin-top: 10px;
+}
+.popover{
+    z-index: 2060 !important;
+}
+/*新增私课服务start*/
+.reservation_header {
+    height: 54px;
+    width: 100%;
+    line-height: 54px;
+    background-color: #E5EAF0;
+}
+
+.reservation_header .w20 {
+    color: #FFFFFF;
+    height: 54px;
+    line-height: 54px;
+    font-size: 20px;
+    background-color: #70CC29;
+    text-align: center;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.fw {
+    font-weight: bold;
+}
+.darkGrey{
+    color:darkgrey;
+}
+.yy_progress {
+    width: 100%;
+    background-color: #D7DEE8
+}
+
+.yy_progress .progress {
+    width: 50%;
+    height: 10px;
+    background-color: #AAE67D;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.centerHeight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pdLr0{
+    padding-left: 0;
+    padding-right: 0;
+}
+.selectPadding{
+    padding: 4px 12px;
+}
+.mT20{
+    margin-top: 20px;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{-webkit-appearance: none !important;  margin: 0;  }
+input[type="number"]{  -moz-appearance:textfield;  }
+
+.displayBlock{opacity: 0;}
+.displayNone{display: none;}
+
+.teachPrivately{margin-top: 20px;}
+.teachPrivately>button:nth-of-type(1),.teachPrivately>button:nth-of-type(2){padding: 4px 30px;}
+.teachPrivately>button:nth-of-type(3){padding: 4px 30px;margin-left: 20px;}
+
+
+
+
+#memberDetail{
+    border-left: solid 1px #e5e5e5;
+    padding: 50px 0 114px 60px;margin-left: 0;margin-right: 0;
+}
+#memberDetail>div:nth-of-type(1) img{width: 210px;height: 210px;border-radius: 50%}
+
+
+
+.titleP{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+.titleP>span {
+    display: inline-block;
+}
+.titleP>button {
+    font-size: 12px;
+    float: right;
+    display: inline-block;
+    margin-right: 8%;
+    width: 60px;
+}
+.red {
+    color: red;
+}
+.privateDivBorder {
+    border-bottom: 1px solid #c8c5c5;
+    padding-bottom: 20px;
+}
+.contentSpan{
+    color: #333;
+    font-weight: bold;
+}
+.backColorBlue{
+    background-color:#e7eaec;
+}
+
+.PrivateTimetable2{display: block}
+.PrivateTimetable2>div:nth-of-type(1){padding: 0px}
+.clearfix1{height: 41px}
+.clearfix1>div{margin-top: -10px;}
+.clearfix1Button{margin-bottom: 0;}
+.dropdownMenuADD{font-size: 16px;}
+.dropdownMenuA{color: #999;}
+
+.privateCourseManagementList{padding: 0;}
+.privateCourseManagementListDiv{  display: none;}
+
+.checkboxButton{width: 15px;height: 15px;position: relative;top: 3px;}
+.checkboxSpan{font-size: 13px;}
+
+/*#privateModal>div{min-width: 1000px;width: 80%;}*/
+#privateModal>div{width: 80%;}
+.myModalLabel1{text-align: center;font-size: 18px;}
+@media screen and (max-width: 1280px) {
+    .w1280colsm10 {
+        width: 83%;
+    }
+    .w1280colsm6 {
+        padding: 0;
+    }
+}
+.privateModalBody{margin: 10px 20px;}
+.changeBasicAttrAllDiv {
+    margin-top: 10px;
+}
+.changeBasicAttrAllDiv input {
+    height: 30px;
+    border: 1px solid #ccc;
+    margin-top: -5px;
+    font-size: 13px;
+}
+.changeBasicAttrAllDiv select {
+    height: 30px;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: -5px;
+    font-size: 14px;
+}
+.changeBasicAttrAllDiv textarea {
+    font-size: 16px;
+}
+.changeAddButtonMT {
+    margin-top: 20px;
+}
+.changeSellAllNumDiv {
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 30px;
+    margin-top: 0;
+}
+.changeSellAllNumCheckBox {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align:middle;
+    width: 22px;
+}
+.beCenterMiddle{
+    margin: 0 auto;float: none;
+}
+.modalFooterButtonCenter {
+    display: flex;
+    justify-content: center;
+}
+.modalFooterButtonCenter button {
+    font-size: 14px;
+    width: 105px;
+}
+/*.changeBasicAttrAllDiv option {*/
+    /*height: 30px;*/
+/*}*/
+.privateModalBodyDiv{padding-left: 5px;padding-right: 5px;margin-top: 10px;}
+.w100{
+    width: 100px;
+}
+.w100Percent {
+    width: 100%;
+}
+.mt20{
+    margin-top: 20px;
+}
+.select2-container .select2-selection--single{
+    height: 30px;
+}
+.mR15{
+    margin-right: 15px;
+}
+.mT10{
+    margin-top: 10px;
+}
+#imgFlagClass {
+    width: 100px;
+    height: 100px;
+    border: 1px dashed #ddd;
+    position: relative;
+    margin-left: 254px;
+    margin-top: -150px;
+}
+.addCss {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+}
+#classStatusChange,
+.venueSelect2 .select2{
+    min-width: 120px;
+    max-width: 180px;
+    margin-top: 12px;
+}
+.venueSelect2Course .select2{
+    min-width: 120px;
+    max-width: 180px;
+}
+.venueSelect2Miss .select2{
+    min-width: 120px;
+    max-width: 180px;
+}
+.contentBetween{
+    display: flex;
+    padding-left: 0;
+}
+.heightCenter{
+    display: flex;
+    align-items: center;
+}
+.courseSectionNum{
+    padding-bottom: 10px;
+    border-bottom: solid 1px snow;
+}

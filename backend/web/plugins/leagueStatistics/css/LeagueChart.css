@@ -1,0 +1,94 @@
+.loderBox{height: 500px;}
+.textCentent{text-align: center;}
+.fontSize30{font-size: 30px;}
+.fontSize20{font-size: 20px;}
+
+.mb10px{margin-bottom: 10px;}
+.borRigth{border-right: solid 1px grey;}
+.borLeft{border-top: solid 1px grey; border-bottom: solid 1px grey;}
+.mt30px{margin-top: 15px;}
+.pd{padding: 25px 0;}
+.textAlignRigth{text-align: right;}
+.pt10{padding-top: 10px;}
+.pt4px{padding-top: 4px;}
+.color{color: rgb(255,153,0)}
+.pb0{padding-bottom: 0;}
+.pd0{padding: 0;}
+.pt20{padding-top: 20px;}
+.disp{width: 35px;height: 35px; border-radius: 35px; display: inline-block;background-size: 35px 35px;}
+.lineHeight30px{line-height: 30px;justify-content: center}
+.displayInlineBlock{display: inline-block;justify-content: flex-end}
+.selectPd2{
+    padding-top: 2px!important;
+}
+.pd0{
+    padding: 0;
+}
+.bgBox{
+    background: #F5F7FA;
+}
+body{
+    background: #F5F7FA!important;
+}
+.pageWrappersss{
+    background: #F5F7FA!important;
+    padding: 0!important;
+}
+.bgw{
+    background: #fff!important;
+}
+.pdr20box{
+    padding-right: 20px!important;
+}
+.pdb40{
+    padding-bottom: 40px;
+}
+.mrt20{
+    margin-top: 20px;
+}
+h2{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.w70{
+    width: 70px;
+    display: inline-block;
+}
+.coachDetails{
+    font-size: 14px;
+    cursor: pointer;
+}
+.coachDetails:hover{
+    color: #00cc00;
+}
+.greenWords{
+    font-size: 48px!important;
+    font-weight: bold!important;
+    color: #00cc00;
+}
+.h550{
+    height: 550px;
+}
+.pdb20{
+    padding-bottom: 20px;
+}
+.orangeWords{
+    color: #ff9900;
+    font-weight: bold;
+}
+.blueWords{
+    color: #60C9F9;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+

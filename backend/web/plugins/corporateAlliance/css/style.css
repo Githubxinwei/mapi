@@ -1,0 +1,160 @@
+/*css 2017-06-27 by suyu*/
+.pd0{
+    padding: 0;
+}
+.searchBox{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.boR0{
+    border-radius: 0;
+    height: 30px;
+}
+.applyAddBtn{
+    width: 120px;
+}
+.borderNone{
+    border: none;
+}
+.pd10{
+    padding: 10px;
+}
+.mrb0{
+    margin-bottom: 0;
+}
+.spanTable{
+    font-size: 13px;
+    font-weight: bold;
+}
+.w120{
+    width: 120px;
+}
+.op0{
+    opacity: 0;
+}
+.btnHoverOp1:hover .op0{
+    opacity: 1;
+}
+.pdl20{
+    padding-left: 20px;
+    font-size: 16px;
+}
+.shopTextTitleP{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.pdlr70{
+    color: #999;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.mrt10{
+    margin-top: 10px;
+}
+.red{
+    color: red;
+}
+.inputShopBox{
+    margin-top: 30px;
+}
+.shopLabel{
+    font-weight: normal;
+    font-size: 14px;
+}
+.pdr5{
+    padding-right: 5px;
+}
+.pdl5{
+    padding-left: 5px;
+}
+.shopTextTitleP2{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #999;
+}
+.shopTextTitleP3{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #999;
+}
+.nameTishi{
+    font-size: 10px;
+    color: #00cc00;
+}
+.nameTishi2{
+    font-size: 10px;
+    color: #ff9900;
+}
+.pdt30{
+    padding-top: 30px;
+}
+.tabBoxShop{
+    cursor: pointer;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #999;
+    margin-top: 20px;
+    border-radius: 5px 5px 0 0;
+}
+.tabBoxShopActive{
+    font-weight: bold;
+    color: #00cc00;
+    border: 1px solid #eee;
+    border-width: 1px 1px 0 1px;
+    background: #f9f9f9;
+}
+.pdbox40{
+    padding: 20px 40px 0 40px;
+}
+.displayNone{
+    display: none;
+}
+.w200{
+    width: 200px;
+}
+.w55{
+    width: 55%;
+}
+.modalBody2List{
+    height: 580px;
+    overflow: auto;
+}
+.shopTextTitleP4{
+    font-weight: bold;
+    color: #00cc00;
+    font-size: 24px;
+}
+.mrt20{
+    margin-top: 20px;
+}
+.btnInfoBox{
+    position: relative;
+    height: 36px;
+}
+.poBtn1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.poBtn2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.selectNotApply{
+    padding-top: 4px;
+}
+.pdb10{
+    padding-bottom: 10px;
+}
+.w220{
+    width: 220px;
+}
+.pdm20{
+    padding-bottom: 20px;
+}
+.tabBoxDDD:hover{
+    font-weight: bold;
+    color: #00cc00;
+}

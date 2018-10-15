@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<Script language="javascript">
+    var url = location.search; //获取url中"?"符后的字串
+    var urls = decodeURI(url);
+    var str = urls.substr(1)
+    strs = str.split("&");
+    var coach_name = strs[0].split("=");
+    var membeName = strs[1].split("=");
+    console.log(membeName[1]);
+    alert(membeName[1]);
+</script>

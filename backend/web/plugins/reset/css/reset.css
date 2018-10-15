@@ -1,0 +1,173 @@
+body,
+div,
+section,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+a,
+p,
+input,
+form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+a:hover{
+    color: none;
+    text-decoration: none;
+}
+.of {
+    overflow: hidden;
+}
+.fw{
+    font-weight: bold;
+}
+.w250{
+    width: 250px;
+}
+.f12{
+    font-size: 12px;
+}
+.f14 {
+    font-size: 14px;
+}
+.f15{
+    font-size: 15px;
+}
+.f16 {
+    font-size: 16px;
+}
+.f20 {
+    font-size: 20px;
+}
+
+.f25 {
+    font-size: 25px;
+}
+
+.f36 {
+    font-size: 36px;
+}
+.f40{
+    font-size: 40px;
+}
+.grey {
+    color: #555555;
+}
+.black{
+    color: #000000;
+}
+.herHover:hover {
+    color: #E5E5E5;
+}
+
+.img {
+    width: 100%;
+    display: block;
+}
+.dis_none{
+    display: none;
+}
+.dis_block{
+    display: block;
+}
+/*显示小手*/
+
+.cp {
+    cursor: pointer;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: '';
+    visibility: hidden;
+    height: 0;
+}
+/*白色背景*/
+.bg_w {
+    background-color: #FFFFFF;
+}
+
+
+/*每个页面header新增按钮的颜色*/
+.new_add,.nav_add{
+    padding-top: 5px;
+}
+.new_add>a:hover,
+.nav_add>a:hover{
+    text-decoration: none;
+}
+.nav_add>a:hover{
+    color: grey;
+}
+.nav_add>a:visited{
+    color: grey;
+}
+.new_add a{
+    color: green;
+}
+.pdRL0{
+    padding-right: 0;
+    padding-left: 0;
+}
+.pdL0{
+    padding-left: 0;
+}
+.f20{
+    font-size: 20px;
+}
+.colorWhite{
+    color: #FFF;
+}
+.bgWhite{
+    background-color: #FFF;
+}
+.mT20{
+    margin-top: 20px;
+}
+.mB20{
+    margin-bottom: 20px;
+}
+.selectCssPd{
+    padding: 4px 12px;
+}
+.mT10{
+    margin-top: 10px;
+}
+.mB10{
+    margin-bottom: 10px;
+}
+.f14{
+    font-size: 14px;
+}
+
+

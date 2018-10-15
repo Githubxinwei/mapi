@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>周预约表</title>
+		<script src="jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mobiscroll.core-2.5.2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mobiscroll.core-2.5.2-zh.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mobiscroll.datetime-2.5.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mobiscroll.datetime-2.5.1-zh.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mobiscroll.android-ics-2.5.2.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/mobiscroll.android-ics-2.5.2.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mobiscroll.animation-2.5.2.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mobiscroll.core-2.5.2.css"/>
+		<script>
+	      var bw = (document.documentElement.clientWidth/5)+"px";
+	      var htmlTag = document.getElementsByTagName("html")[0];
+	      htmlTag.style.fontSize=bw;
+	    </script>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				position: relative;
+			}
+			ul,li{
+				list-style: none;
+			}
+			ul{
+				width: 100%;
+			}
+			li{
+				box-sizing: border-box;
+				float: left;
+				width: 12.5%;
+				height: 0.62rem;
+				text-align: center;
+				line-height: 0.62rem;
+				border: 1px solid #f5f5f5;
+				font-size: .16rem;
+			}
+			.lists{
+				overflow: hidden;
+				margin-bottom: 1rem;
+			}
+			.dw_header{
+				height: 36px;
+			    line-height: 36px;
+			    padding: 0;
+			    border-bottom: 2px solid #31b6e7;
+			    font-size: 18px;
+			    display: flex;
+			    justify-content: center;
+			}
+			.dwv{
+				display: none;
+			}
+			.mb{
+				width: 100%;
+				height: 100%;
+				position: fixed;
+				top: 0;
+				left: 0;
+				background: rgba(0,0,0,0.3);
+				display: none;
+			}
+			.mb .box{
+				width: 2.4rem;
+				height: 2.4rem;
+				margin: 2rem auto;
+				background: #FFFFFF;
+				text-align: center;
+			}
+			.mb .box h2{
+				font-size: .2rem;
+				text-align: center;
+				font-weight: normal;
+				color: #666666;
+			}
+			.mb .box p{
+				height: .2rem;
+				text-align: right;
+				position: relative;
+				margin-top: .2rem;
+			}
+			.mb .box span{
+				margin-right: .2rem;
+				font-size: .16rem;
+				color: #4469F4;
+				position: absolute;
+				right: 0;
+			}
+			.mb .box img{
+				width: .6rem;
+				height: .6rem;
+			}
+			.condition{
+				width: 74%;
+				height: .6rem;
+				background: #FFFFFF;
+				border: 1px solid #E6E6E6;
+				position: fixed;
+				left: 15%;
+				bottom: .3rem;
+				font-size: .16rem;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+			}
+			.condition div{
+				width: .4rem;
+				height: .3rem;
+				border: 1px dashed #cecece;
+			}
+			.type1{
+				background: #99d6ff;
+			}
+			.type2{
+				background: #e5f5ff;
+			}
+			.type3{
+				background: #e6e6e6;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="layout"></div>
+		<ul class="lists"></ul>
+		<input name="time" value="0:00" id="time" style="display: none;" />
+		<div class="condition ">
+			<div class="type1"></div>
+			<span>预约成功</span>
+			<div class="type2"></div>
+			<span>已预约</span>
+			<div class="type3"></div>
+			<span>不可预约</span>
+		</div>
+		<div class="mb">
+			<div class="box">
+				<img src="img/icon.png"/>
+				<h2></h2>
+				<p>
+					<span>确定</span>					
+				</p>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var interface = location.host;
+			console.log(interface)
+			$(".mb").click(function(e){
+				var evt = e || event;
+				if (evt.target == this) {
+					$(".mb").css("display","none");
+					$("body").css("overflow-y","auto");
+				}
+			})
+			var str = "";
+			function toDate (time) {
+				var date = new Date(time*1000);
+		        h = date.getHours();
+		        m = date.getMinutes();
+				return (h-8)*60+m;
+			}
+			for (var i = 8;i<=23;i++) {
+				str+=`<ul><li>${i}:00</li><li class="yy ${i+'_0'}"></li><li class="yy ${i+'_1'}"></li><li class="yy ${i+'_2'}"></li><li class="yy ${i+'_3'}"></li><li class="yy ${i+'_4'}"></li><li class="yy ${i+'_5'}"></li><li class="yy ${i+'_6'}"></li></ul>`;
+			}
+			$(".layout").html(str);
+			var liWidth = $(".layout").find("li").eq(0).width()+2;
+			var liHeight = 0.62;
+			var xhr = $.ajax();
+			function callAndroid(){
+	           document.location = "js://webview";
+	        }
+			function callios(){
+	           window.webkit.messageHandlers.iosPop.postMessage("1")
+	        }
+			function mobscro(curDate,hour,memberId,coachId,start,end,classId,venueId,memberCardId){
+				var curDate = new Date(curDate*1000);
+				var opt={};
+				$("#time")[0].value=hour+":00";
+				opt.time = {preset : 'time',minDate: new Date(curDate.getFullYear(),curDate.getMonth()+1,curDate.getDate(),hour,0), maxDate: new Date(curDate.getFullYear(),curDate.getMonth()+1,curDate.getDate(),hour,59), stepMinute: 5};
+				opt.default = {
+					theme: 'android-ics light',
+			        display: 'modal',
+			        mode: 'scroller',
+					lang:'zh',
+					layout:"liquid",
+					onMarkupReady:function(e,i){
+						var conArr = e[0].innerHTML.split(`<div class="dwwr">`);
+						var str = conArr[0]+`<div class="dwwr">`+`<div class='dw_header'>${curDate.getFullYear()}年${curDate.getMonth()+1}月${curDate.getDate()}日周${curDate.getDay()==1?"一":curDate.getDay()==2?"二":curDate.getDay()==3?"三":curDate.getDay()==4?"四":curDate.getDay()==5?"五":curDate.getDay()==6?"六":curDate.getDay()==0?"日":""}</div>`+conArr[1];
+						e[0].innerHTML = str;
+					},
+					onSelect: function (valueText, inst) {
+		                var startTime = curDate.getFullYear()+"/"+(curDate.getMonth()+1)+"/"+curDate.getDate()+" "+valueText;
+		                if (Date.parse(new Date()) >= Date.parse(new Date(startTime))) {
+		                	$(".mb").find("h2").html("您预约的时间已过去！");
+			    			$(".mb").css("display","block");
+							$("body").css("overflow-y","hidden");
+							$(".mb").find("span").click(function(){
+								$(".mb").css("display","none");
+								$("body").css("overflow-y","auto");
+							})
+		                }else{
+                            if(!memberCardId){
+                                memberCardId = "";
+							}
+			                $.ajax({
+						    	type:"post",
+						    	url:"http://"+interface+"/v1/api-about-record/set-about-record",
+						    	data:{memberId:memberId,coachId:coachId,classId:classId,classType:"charge",aboutType:"mobile",venueId:venueId,classDate:startTime,memberCardId:memberCardId},
+						    	success:function(data){
+					    			$(".mb").find("h2").html(data.message);
+					    			$(".mb").css("display","block");
+									$("body").css("overflow-y","hidden");
+									$(".mb").find("span").click(function(){
+										$(".mb").css("display","none");
+										$("body").css("overflow-y","auto");
+									})
+									console.log(data)
+
+						    		if (data.code == 1) {
+										$(".mb").find("span").click(function(){
+											$(".mb").css("display","none");
+											$("body").css("overflow-y","auto");
+											callAndroid();
+											callios();
+										})
+						    		}else if (data.code == 0) {
+						    			$(".mb").find("span").click(function(){
+											$(".mb").css("display","none");
+											$("body").css("overflow-y","auto");
+										})
+						    		}   		
+						    	}
+						    });
+		                }
+		            }
+				};
+			  	var optTime = $.extend(opt['time'], opt['default']);
+			    $("#time").mobiscroll(optTime).time(optTime);
+			    var inst = $('#time').mobiscroll('getInst');
+			    inst.show();
+			    $(".dwwr").css("width","2.4rem");
+			    $(".dwo").click(function(e){
+			    	var evt = e || event;
+			    	if (evt.target == this) {
+			    		inst.hide();
+			    	}
+			    })
+			}
+			function requireData(memberId,coachId,start,end,classId,venueId,memberCardId){
+				var dataList = "";
+                var lists = "";
+				$(".lists").html(lists);
+				$(".yy").unbind("click");
+				$(".mb").find("span").click(function(){return});
+				xhr.abort();
+				xhr = $.ajax({
+					type:"get",
+					url:`http://${interface}/v1/about-class/table?coachId=${coachId}&memberId=${memberId}&start=${start}&end=${end}`,
+					success:function(data){
+						dataList = data.data;
+						for (var i = 0; i < dataList.length;i++) {
+							if (dataList[i][0]) {
+								for (var j = 0; j < dataList[i].length; j++) {
+									var liheight = (toDate(dataList[i][j].end)-toDate(dataList[i][j].start))/60*liHeight;
+									var liY = toDate(dataList[i][j].start)/60*liHeight;
+									if (dataList[i][j].type == 1) {
+										lists+=`<li style="background:#99d6ff;position:absolute;left:${liWidth*(i+1)}px;top:${liY}rem;height:${liheight}rem;"></li>`;	
+									} else if(dataList[i][j].type == 2){
+										lists+=`<li style="background:#e5f5ff;position:absolute;left:${liWidth*(i+1)}px;top:${liY}rem;height:${liheight}rem;"></li>`;	
+									} else if (dataList[i][j].type == 3 || dataList[i][j].type == 4){
+										lists+=`<li style="background:#e6e6e6;position:absolute;left:${liWidth*(i+1)}px;top:${liY}rem;height:${liheight}rem;"></li>`;
+									}
+								}
+							}
+						}
+						$(".lists").html(lists);
+						$(".yy").click(function(){
+							var day = this.className.split(" ")[1].split("_")[1];
+							var hour = this.className.split(" ")[1].split("_")[0];
+							var curDate = day*3600*24 + start;
+							mobscro(curDate,hour,memberId,coachId,start,end,classId,venueId,memberCardId);
+						})
+						return "success";
+					},
+					error:function(xhr,status,erro){
+						if(status != "abort"){
+							$(".mb").css("display","block");
+							$("body").css("overflow-y","hidden");
+							$(".mb").find("h2").html("加载失败，点击确定重试");
+							$(".mb").find("span").click(function(){
+								$(".mb").css("display","none");
+								$("body").css("overflow-y","auto");
+								requireData(memberId,coachId,start,end,classId,venueId);
+							})
+						}
+						return status;
+					}
+				})
+			};
+		</script>
+	</body>
+</html>
+

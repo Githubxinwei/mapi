@@ -1,0 +1,41 @@
+
+
+
+
+#form2{width: 300px;height: 100%;margin: 0 auto;border-bottom: none;}
+
+#form2>select{width: 100%;height: 30px;}
+#form2>input:nth-of-type(1){width: 100%;height: 29px;}
+
+#form2>div:nth-of-type(1)>input:nth-of-type(1){width: 49%;height: 30px;}
+#form2>div:nth-of-type(1)>input:nth-of-type(2){width: 49%;height: 30px;}
+
+#form2>div:nth-of-type(2)>input:nth-of-type(1){width: 49%;height: 30px;}
+#form2>div:nth-of-type(2)>input:nth-of-type(2){width: 49%;height: 30px;}
+
+
+#form2>div:nth-of-type(3)>input:nth-of-type(1){width: 49%;height: 30px;}
+#form2>div:nth-of-type(3)>input:nth-of-type(2){width: 49%;height: 30px;}
+
+
+#addDiv section{display: inline-block;}
+#addDiv>section:nth-of-type(1){width: 40%;height: 70px;text-align: left;}
+#addDiv>section:nth-of-type(1)>select{width: 80%;height: 30px;}
+#addDiv>section:nth-of-type(2){width: 30%;height: 70px;margin-left: 10px;text-align: left;}
+#addDiv>section:nth-of-type(2)>input{width: 90px;height: 30px;}
+#addDiv>section:nth-of-type(3){width: 30%;height: 70px;margin-left: 10px;text-align: left;}
+
+
+
+.margins2{margin-top: 5px;text-align: left;margin-bottom: 0;}
+.margins{margin-top: 5px;text-align: left;margin-bottom: 0;}
+
+.marginLeft{text-align: left;}
+#addFormulate{width: 100%;height: 30px;}
+
+#checkboxSelect div{margin-top: 0;}
+
+
+
+
+

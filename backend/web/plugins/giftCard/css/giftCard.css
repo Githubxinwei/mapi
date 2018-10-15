@@ -1,0 +1,85 @@
+/*赠卡页面css*/
+.cp {
+    cursor: pointer;
+}
+.bgWhite{
+    background-color: #FFFFFF;
+}
+.tabs-container .nav-tabs > li.active > a, .tabs-container .nav-tabs > li.active > a:hover, .tabs-container .nav-tabs > li.active > a:focus{
+    border:none;
+    background-color: transparent;
+    color: #70CC29;
+}
+.oP0{
+    opacity: 0;
+}
+.pdLR0{
+    padding-left: 0;
+    padding-right: 0;
+}
+.selectPd{
+    padding: 4px 12px;
+    border-radius: 3px;
+}
+.mT10{
+    margin-top: 10px;
+}
+.mR10{
+    margin-right: 10px;
+}
+.M20 {
+    margin: 20px auto;
+}
+.M20 > span:first-child {
+    font-weight: 700;
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+}
+.red{
+    color: red;
+}
+.heightCenter{
+    display: flex;
+    align-items: center;
+}
+.w100{
+    width: 100px;
+}
+.borderNone{
+    border:none;
+}
+
+.select2-drop {
+    z-index: 10050 !important;
+}
+
+.select2-search-choice-close {
+    margin-top: 0 !important;
+    right: 2px !important;
+    min-height: 10px;
+}
+
+.select2-search-choice-close:before {
+    color: black !important;
+}
+/*防止select2不会自动失去焦点*/
+.select2-container {
+    z-index: 16000 !important;
+    height: 30px;
+}
+
+.select2-drop-mask {
+    z-index: 15990 !important;
+}
+
+.select2-drop-active {
+    z-index: 15995 !important;
+}
+.select2-container .select2-selection--single {
+    height:30px;
+}
+#select2-homePageVenueSelect123-container{
+    min-width: 200px;
+    z-index: 100 !important;
+}

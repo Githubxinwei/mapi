@@ -1,0 +1,83 @@
+.cardTypeContent{
+    width: 100%;
+    height: 100%;
+    height: auto;
+}
+.pd0{
+    padding-left: 0;
+    padding-right: 0;
+}
+.mg0{
+    margin-left: 0;
+    margin-right: 0;
+}
+.mt50 {
+    margin-top: 50px;
+}
+.cardTypeTop select{
+    height: 34px;
+    width: 100%;
+}
+.panelTitle{
+    font-weight: 900;
+    font-size: 18px;
+}
+.contentBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lH30 {
+    line-height: 30px;
+}
+/******会员卡详情模态框样式********/
+.cardTypeModalMain{
+    width: 50%;
+    top:5%;
+}
+.panelModal{
+    border: none;
+}
+.panelModal .panelModalTitle{
+    font-weight: 900;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.chooseCardType > div {
+    margin: 10px 0;
+}
+/**换行间隔Div**/
+.warpDiv{
+    height: 10px;
+}
+/***********属性匹配模态框样式************/
+.matchingModal .modal-body{
+    padding-left:30%;
+    padding-right: 20%;
+}
+
+.matchingModal #cardSelect{
+    width: 50%;
+    height: 30px;
+}
+.matchingModal .choseCard{
+    font-weight: 100;
+    margin-right: 10px;
+}
+.waring-tit{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/***********匹配记录模态框样式************/
+.recordModalMain{
+    top:5%;
+}
+.slashAdd {
+    min-width: 260px;
+}
+.slashAdd > span:after {
+    content: ' /';
+}
+.slashAdd > span:last-child:after {
+    content: '';
+}

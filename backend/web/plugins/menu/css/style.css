@@ -1,0 +1,112 @@
+.pd0{
+    padding: 0;
+}
+.titleh2{
+    background: #fff;
+}
+.spanTable{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.borderNone{
+    border: none;
+}
+.pdm0{
+    padding-bottom: 0
+}
+.w120{
+    width: 120px;
+}
+.w240{
+    width: 240px;
+}
+.w200{
+    width: 200px;
+}
+.pdlr30{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.w80{
+    width: 80px;
+}
+.w60{
+    width: 60px;
+}
+.pdb20{
+    padding-bottom: 20px;
+}
+.red{
+    color: red;
+}
+.w100{
+    width: 100px;
+}
+.topTitleM{
+    text-align: center;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.w80b{
+    width: 80%;
+}
+.subBody{
+    height: 580px;
+    overflow-y: scroll;
+}
+.subBtnBox{
+    position: relative;
+    padding-top: 30px;
+}
+.btnAddSub{
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: -12px;
+}
+.btnAddSubs{
+    width: 100px;
+    position: absolute;
+    right: 130px;
+    top: -12px;
+}
+.pd30pr30{
+    padding-left: 30px;
+    padding-right: 30px
+}
+.op0{
+    opacity: 0;
+}
+.ml_20px{margin-left: 20px;}
+.textAlignCenter{text-align: center;}
+.h35px{height: 35px;line-height: 40px}
+.pb15none{padding-bottom: 0;}
+.borderPaddingLeftRigth{border-top: solid 1px #f7f7f7;padding-left: 0;padding-right: 0;}
+.h40{height: 40px;}
+.mt20px{margin-top: 20px;}
+.pd20px{padding-bottom: 20px;}
+.colorOpacity{opacity: 0;}
+.colorBlue{ color: blue;opacity: 1}
+.colorOpacity1{opacity: 1}
+.paddingLeft30px{padding-left: 45px;}
+.displayBlock{display: block;width:100px;}
+.menuCheck > label {
+    width: 120px;
+}
+/*加载动画*/
+.transitionBox{
+  position: relative;
+  top: 40px;
+}
+.ball-scale-multiple > div {
+ background: #52ecfb;
+ width: 160px;
+ height: 160px;
+ position: absolute;
+ left: 50%;
+ top: -160px;
+ margin-left: -80px;
+}
+.transitionBox > p {
+  font-size: 18px;
+}

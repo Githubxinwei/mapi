@@ -1,0 +1,37 @@
+.main{
+    padding-top: 15px;
+    background-color: #FFFFFF;
+}
+.checkbox input{
+    width: 16px;
+    height: 16px;
+    border:solid 1px #5E5E5E ;
+}
+.checkbox label{
+    padding-left: 5px !important;
+}
+.backBtn{
+    padding: 15px 0;
+    background-color: #F5F7FA;
+}
+.backBtn a:hover{
+    color: #5E5E5E;
+}
+.switchery > small{
+    width: 20px;
+    height: 20px;
+}
+.switchery{
+    width: 40px;
+    height: 20px;
+}
+#selecRole{
+    height:40px;
+}
+.MTL ul>li{
+    border-top: solid 1px darkgrey;
+    padding: 15px 0;
+}
+.MTL ul>li:nth-child(1){
+    border-top:0;
+}

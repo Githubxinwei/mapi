@@ -1,0 +1,205 @@
+/*会员登记css*/
+.colorAquaBg{
+    background-color: #2FBF79;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{-webkit-appearance: none !important;  margin: 0;  }
+input[type="number"]{  -moz-appearance:textfield;  }
+
+.weui_icon_success:before{
+    color: #2FBF79;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    box-shadow:0 1px 0 0 #999;
+    height: 44px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+.f16Name{
+    width: 120px;
+    font-size:14px;
+    color:#999;
+}
+.listForm{
+    margin: 0 2%;
+    display: flex;
+    align-items: center;
+    height:50px;
+    border-bottom: solid 1px #e5e5e5;
+}
+.listForm li:nth-child(1) {
+    padding-left: 6px;
+}
+.borderNone{
+    border:none;
+}
+.weui_cell{
+    padding: 15px 15px;
+    border-bottom: solid 1px #d9d9d9;;
+}
+.weui_cell:before{
+    border-top:none;
+    left: 0;
+}
+.mBt0{
+    margin-bottom: 0;
+}
+.getCode{
+    border:none;
+    background-color: transparent;
+}
+.getCode:active{
+    border:none;
+}
+.weui_cells_access .weui_cell_ft:after{
+    display: none;
+}
+.selectInput{
+    border: none;
+    color: #000;
+    text-align: center;
+}
+.selectFan{
+    margin-top: 0px;
+    border-bottom: solid 1px #e5e5e5;
+    max-height: 100px;
+    overflow-y: scroll;
+}
+.pd10{
+    padding: 10px;
+}
+.colorTransparent{
+    color: transparent;
+}
+.borderNone{
+    border:none;
+}
+.newText{
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+    color:#999;
+}
+.bgColorGreen{
+    background-color:#2FBF79;
+}
+.borderB2{
+    border-bottom: solid 2px #000;
+}
+
+.pRelative{
+    position: relative;
+}
+.bGWhite{
+    background-color: #FFF !important;
+}
+.op0{
+    opacity: 0;
+}
+.colorE5{
+    color: #E5E5E5;
+}
+.colorD9{
+    color: #d9d9d9;
+}
+.fwNormal{
+    font-weight: normal !important;
+}
+.color000{
+    color: #000;
+}
+.w40{
+    width:40px;
+}
+.wB100{
+    width: 100%;
+}
+.disFlex{
+    display: flex;
+}
+.wB50{
+    width: 50% !important;
+}
+.w190{
+    width: 190px;
+}
+.bgTransparent{
+    background-color: transparent !important;
+}
+.mLF3{
+    margin-left: -3px;
+}
+.wB40{
+    width: 40% !important;
+}
+.mLF20{
+    margin-left: -20px;
+}
+.mT0{
+    margin-top: 0;
+}
+.textCenter{
+    text-align: center;
+}
+.letterSpacing2{
+    letter-spacing: 2px;
+}
+.font14{
+    font-size: 14px;
+}
+.hB100{
+    height: 100%;
+}
+
+/*信息提示信息样式*/
+/*dialog ����meg ��ʽ*/
+
+.nspop_megcontainer {
+    position: fixed;
+    top: 12px;
+    width: 100%;
+    z-index: 999;
+
+}
+.nspop_megcontainer .main {
+    padding: 8px;
+    background-color: #030303;
+    width: 18em;
+    margin: auto;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+.nspop_megcontainer .textContent {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+@keyframes  ttanimations {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity:1
+    }
+}
+.myactive {
+    -webkit-animation-name: ttanimations;
+    animation-name: ttanimations;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
+
+.listForm img{
+    width: 60%;
+    height:auto;
+}
+.bGgrey{
+    background-color: #d9d9d9;
+}

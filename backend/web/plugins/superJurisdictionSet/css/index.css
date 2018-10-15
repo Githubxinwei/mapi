@@ -1,0 +1,175 @@
+.h34{
+    height: 34px;
+    line-height: 34px;
+}
+.bgWhite{
+    background-color: #FFFFFF !important;
+}
+.lineBisection{
+    display: flex;
+    justify-content: center;
+}
+.mT0{
+    margin-top: 0 !important;
+}
+.mB0{
+    margin-bottom: 0 !important;
+}
+.checkBoxInput{
+    margin-top: 7px !important;
+    width: 18px !important;
+    height: 18px !important;
+}
+.mL10{
+    margin-left: 10px;
+}
+.pT0{
+    padding-top: 0 !important;
+}
+.borderNone{
+    border:none;
+}
+.selectRoleList{
+    height:300px !important;
+    overflow-y: scroll !important;
+}
+.pd0{
+    padding: 0;
+}
+.mTF10{
+    margin-top: -10px;
+}
+.w120{
+    width: 120px;
+}
+.labelSpan{
+    position: absolute;
+    width: 40px;
+}
+.w200{
+    width: 200px;
+}
+.selectCss{
+    padding: 4px 12px;
+}
+.mTB10{
+    margin: 10px auto;
+}
+.setLabelSpan{
+    position: absolute;
+    width: 40px;
+    top:6px;
+}
+.mT0{
+    margin-top: 0;
+}
+.tF6{
+    top:-6px !important;
+}
+.checkBoxW{
+    width: 18px;
+    height:18px;
+    top:-4px;
+}
+.borerB{
+    border-bottom:solid 1px #d9d9d9;
+}
+.mB10{
+    margin-bottom: 10px;
+}
+.mT20{
+    margin-top: 20px;
+}
+.mT10{
+    margin-top: 10px;
+}
+.pdLr0{
+    padding-left: 0px;
+    padding-right: 0;
+}
+.w100{
+    width: 100px;
+}
+.w720{
+    width: 720px;
+}
+.companyLists,
+.venueLists{
+    border-top:solid 1px #d9d9d9;
+    border-bottom:solid 1px #d9d9d9;
+    height:50px;
+    line-height: 50px;
+}
+.mB0{
+    margin-bottom: 0;
+}
+.relevanceInput{
+    width: 18px;
+    height:18px;
+    top:12px;
+}
+.relevanceList{
+    height: 400px;
+    overflow-y: scroll;
+}
+.borderR{
+    border-right: solid 1px #d9d9d9;
+}
+.textCenter{
+    text-align: center!important;
+}
+.colorGreen{
+    color: #20a03f;
+    font-weight: bold;
+}
+.switch small{
+    width: 24px !important;
+    height: 24px !important;
+}
+.switch{
+    width: 46px !important;
+    height: 24px !important;
+}
+.pLB5{
+    padding-left: 5%;
+}
+.pRB5{
+    padding-right: 5%;
+}
+.tdBtn{
+    opacity: 0;
+}
+tr:hover .tdBtn{
+    opacity: 1;
+}
+.w300{
+    width: 300px;
+}
+.h24{
+    height:24px;
+}
+.mB20{
+    margin-bottom: 20px;
+}
+.color999{
+    color: #999;
+}
+.mTF4{
+    margin-top: -4px;
+}
+.removeFlag{
+    opacity: 0;
+}
+
+.removeFlag123:hover .removeFlag{
+    opacity: 1;
+}
+.mT50{
+    margin-top: 50px;
+}
+.mT30{
+    margin-top: 30px;
+}
+.divFooterBox{height: 60px;width: 100%;border-top: solid 1px #e5e5e5; ;position: fixed;bottom: 0;left: 0;z-index: 3;}
+.marginRight15{margin-right: 15px;}
+.marginRight30{margin-right: 30px;}

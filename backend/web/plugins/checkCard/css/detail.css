@@ -1,0 +1,142 @@
+
+@media screen and (max-width:1400px){
+    .self-Adaption{
+        display:block;
+        padding:0px;
+        margin:0px 20px;
+    }
+    /*.self-btn{*/
+        /*position: relative;*/
+        /*width:100px;*/
+        /*padding: 0px;*/
+        /*left:-45px;*/
+    /*}*/
+    /*.self-btns{*/
+        /*position: relative;*/
+        /*left:-15px;*/
+    /*}*/
+}
+.MemberInfoDetail{height: calc(100% - 60px);margin-bottom: 60px; background-color: #FFFFFF;}
+.MemberInfoDetail>div:nth-of-type(1){margin-top:30px;}
+.memberInfoDetailH5{position: relative;}
+.memberInfoDetailH5 span{color: #999999;font-size: 24px;top: -22px;padding: 10px 20px;}
+.memberInfoDetailDiv1{display: flex;justify-content: center;}
+.memberInfoDetailDiv1 div{width: 150px;height: 150px; border-radius:8px; background-size:100% 100%;position: relative;margin-bottom: 20px;}
+.memberInfoDetailDiv1 img{width: 150px;height: 150px}
+
+/*.marginLeft30{margin-left: 30px;}*/
+.marginLeft10{margin-left: 10px;}
+.marginTop30{margin-top: 30px;}
+.marginTop20{margin-top: 20px;}
+.marginRight15{margin-right: 15px;}
+.marginRight30{margin-right: 30px;}
+.fontSize{font-size: 20px}
+.lineHeight30{
+    line-height: 30px;
+    font-size: 13px;
+}
+/*.displayFlexJustifyContentCenter{display: flex;justify-content: center;}*/
+.viewUserDetails{font-size: 14px;color: #00CC00;cursor:pointer}
+.clearfixSpan1{margin-top: 20px;border: 1px solid #999;min-width: 60px}
+.clearfixSpan1 a{color:#fff;margin-top: 5px;}
+.clearfixA{color:#fff;}
+.clearfixA>span{margin-left:20px;;margin-top: 20px;border: 1px solid #000;min-width: 60px}
+.divBox1{border-left: solid 1px #e5e5e5;}
+.divBox1>div:nth-of-type(1){position: relative;margin-bottom: 10px;}
+.memberDataStatusImg{width: 110px;margin-left: 12px;}
+.sectionDivColor1{color: #00CC00;font-size: 30px;}
+.sectionDivColor{color: #ff9933;font-size: 30px;}
+.sectionDivColor3{color:	#ff9933;font-weight: bold;}
+.sectionDivColor4{color:	#676a6c}
+.checkCardTableBoxTitle{border: solid 1px #e5e5e5;}
+.divFooterBox{height: 60px;width: 100%;border-top: solid 1px #e5e5e5; ;position: fixed;bottom: 0;left: 0;z-index: 3;}
+.selectStyle{padding: 4px 12px; height: 35px;}
+.myModalLabel1{margin-left: 10px;color: rgb(35,173,68)}
+.myModalsBody>div:nth-of-type(1){color: rgb(153,153,153);margin-left: 120px}
+.myModalsBody>div:nth-of-type(2){margin-left: 120px}
+.myModalsBody>div:nth-of-type(2) input{width: 250px}
+#submitMobile{width: 50%;}
+#dataId{height: calc(100% - 60px); background-color: #FFFFFF;}
+#dataId>div:nth-of-type(1){padding-right: 0;padding-left: 0;}
+.dataIdDiv1{width: 140px;height: 140px; border-radius:50%; overflow:hidden;position: relative;margin-left: 12px}
+.dataIdDiv1>img{width: 150px;height: 150px}
+.daysRemainingName{
+    margin-left: 32px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.daysRemaining{;
+    margin-left: 32px;
+    font-size: 14px;
+    color: #999;
+}
+.daysRemainingColor{border-left: 1px solid #999}
+.daysRemainingDiv{float: left;position: relative;margin-left: 23px;margin-top: 0px;width: 200px}
+.daysRemainingDiv input{width: 241px;margin-left: -47px;font-size: 13px;background-color: #fff;text-align:left}
+.leaveNoteAll{margin-bottom: 10px;width: 500px;color: #999;margin-left: -26px}
+#leaveCause{width: 243px;height: 100px;margin-left: -26px}
+.leaveInstructions{margin-bottom: 10px;color: #999;margin-left: -26px}
+.leaveInstructionsFooter{border-top: none;}
+.leaveInstructionsFooter button{width: 15%;margin-top: 20px;float: right}
+.MemberInfoDetail>div:nth-of-type(2){margin-top:30px;}
+#selectLeaveDays{padding: 4px 12px;}
+.mLF26{margin-left: -26px !important; }
+.mrt10{
+    margin-top: 10px;
+}
+.cursorPointer{cursor: pointer;}
+.a46{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999;
+    font-weight: normal;
+}
+.a47{
+    border-left: 1px solid #999;
+}
+.a50{
+    width: 243px;height: 100px;margin-left: -26px;
+}
+.a51{
+    margin-bottom: 10px;width: 500px;color: #999;margin-left: -26px;
+}
+.userNote{
+    margin-top: 20px;
+}
+.mLF26{
+    margin-left: -26px;
+}
+.a52{
+    width: 15%;margin-top: 20px;float: right;
+}
+.heightCenter{
+    display: flex;
+    align-items: center;
+}
+.mT20{
+    margin-top: 20px;
+}
+.selectPd{
+    padding: 4px 12px;
+}
+.red{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

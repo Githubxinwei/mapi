@@ -1,0 +1,21 @@
+
+
+
+
+#form5{height: 200px;width: 100%;}
+
+#form5>div:nth-of-type(1){width: 500px;height: 150px;margin: 0 auto;}
+#form5>div:nth-of-type(1)>section:nth-of-type(1){width: 200px;height: 100px;padding-top: 20px; float: left;}
+#form5>div:nth-of-type(1)>section:nth-of-type(1)>select{width: 90%;height: 35px;}
+
+
+#sectionLi6 li{display: none;}
+
+
+
+#form5>div:nth-of-type(1){width: 500px;height:200px;margin: 0 auto;}
+
+
+#addCheckbox{width: 70px;height: 30px;}
+
+#sectionLi6{width: 200px;float: right;}

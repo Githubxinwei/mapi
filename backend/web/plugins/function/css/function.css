@@ -1,0 +1,51 @@
+.tdBtn{
+    opacity:0;
+}
+tr:hover .tdBtn{
+    opacity: 1;
+}
+.heightCenter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addFunctionA{
+    font-size: 14px;
+    color: rgb(39,194,76)
+}
+.pd0{
+    padding: 0;
+}
+.displayNone{
+    display: none;
+}
+.w240{
+    width: 240px;
+}
+.bgcW{
+    background: #fff;
+}
+.mrr10{
+    margin-right: 10px;
+}
+.mColor{
+    color: rgb(35,173,68);
+}
+.mrb193{
+    margin-bottom: 193px;
+}
+.c153{
+    color: rgb(153,153,153);
+}
+.red{
+    color: red;
+}
+.mrl0{
+    margin-left: 0;
+}
+.c3517368{
+    color: rgb(35,173,68);
+}
+.w15b{
+    width: 15%;
+}

@@ -1,0 +1,106 @@
+
+.colorAquaBg{
+    background-color: #2FBF79;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{-webkit-appearance: none !important;  margin: 0;  }
+input[type="number"]{  -moz-appearance:textfield;  }
+
+.weui_icon_success:before{
+    color: #2FBF79;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    box-shadow:0 1px 0 0 #999;
+    height: 44px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+.f16Name{
+    width: 120px;
+    font-size:14px;
+    color:#999;
+}
+.listForm{
+    margin: 0 2%;
+    display: flex;
+    align-items: center;
+    height:50px;
+    border-bottom: solid 1px #e5e5e5;
+}
+.listForm li:nth-child(1) {
+    padding-left: 6px;
+}
+.borderNone{
+    border:none;
+}
+.weui_cell{
+    padding: 15px 15px;
+    border-bottom: solid 1px #d9d9d9;;
+}
+.weui_cell:before{
+    border-top:none;
+    left: 0;
+}
+.mBt0{
+    margin-bottom: 0;
+}
+.getCode{
+    border:none;
+    background-color: transparent;
+}
+.getCode:active{
+    border:none;
+}
+.weui_cells_access .weui_cell_ft:after{
+    display: none;
+}
+
+
+/*信息提示信息样式*/
+/*dialog ����meg ��ʽ*/
+
+.nspop_megcontainer {
+    position: fixed;
+    top: 12px;
+    width: 100%;
+    z-index: 999;
+
+}
+.nspop_megcontainer .main {
+    padding: 8px;
+    background-color: #030303;
+    width: 18em;
+    margin: auto;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+.nspop_megcontainer .textContent {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+@keyframes  ttanimations {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity:1
+    }
+}
+.myactive {
+    -webkit-animation-name: ttanimations;
+    animation-name: ttanimations;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
+
+.listForm img{
+    width: 60%;
+    height:auto;
+}

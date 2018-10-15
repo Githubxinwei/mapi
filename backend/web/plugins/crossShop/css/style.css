@@ -1,0 +1,47 @@
+#page-wrapper{
+    background: #fff!important;
+    position: relative;
+    padding: 0;
+}
+.corssTitle{
+    text-align: center;
+    font-size: 32px;
+    color: #00cc66;
+    font-weight: bold;
+}
+.content{
+    margin-top: 200px;
+}
+.contentBtn{
+    width: 100px;
+    font-size: 16px;
+}
+.contentInput{
+    font-size: 16px;
+    height: 37px;
+}
+.pd0{
+    padding: 0;
+}
+.mrt20{
+    margin-top: 15px;
+}
+.line{
+    background: #eee;
+}
+.renewMoneyInfoBox>p{
+    text-align: right;
+}
+.renewMoneyInfoBox>p:last-child{
+    text-align: right;
+    font-size: 16px;
+    color: orange;
+    font-weight: bold;
+}
+.select2-879z-container{
+    height: 30px;
+}
+
+.select2-container{
+    z-index: 99999;
+}

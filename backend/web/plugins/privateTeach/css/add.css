@@ -1,0 +1,125 @@
+
+
+
+
+/*#form1{width: 300px;margin: 0 auto;}*/
+
+/*#form1 p{margin-top: 10px;margin-bottom: 3px;}*/
+
+/*#form1>select{width: 230px;height: 30px;}*/
+/*#form1 input{width: 230px;height: 30px;margin: 0 auto;text-align: center;}*/
+
+/*#form1>div:nth-last-of-type(1){width: 230px;margin: 0 auto;padding-top: 10px;}*/
+/*#form1>div:nth-last-of-type(1) section{float: left;text-align: left;}*/
+/*!*#form1>div:nth-last-of-type(1)>section:nth-of-type(1){width: 50%;}*!*/
+/*#form1>div:nth-last-of-type(1)>section:nth-of-type(1)>select{width: 98%;height: 30px;}*/
+
+/*#form1>div:nth-last-of-type(1)>section:nth-of-type(2) div{width: calc(100%/2);text-align: center;}*/
+/*#form1>div:nth-last-of-type(1)>section:nth-of-type(2)>input{width: 100%;}*/
+
+
+
+/*#selectPossessions{width: 100%;}*/
+
+
+/*.wizard > .content{height: 800px;}*/
+
+
+.reservation_header {
+    height: 54px;
+    width: 100%;
+    line-height: 54px;
+    background-color: #E5EAF0;
+}
+
+.reservation_header .w20 {
+    color: #FFFFFF;
+    height: 54px;
+    line-height: 54px;
+    font-size: 20px;
+    background-color: #70CC29;
+    text-align: center;
+}
+.editP{
+    padding: 5px;
+    border:solid 1px #5E5E5E;
+    background-color: darkgrey;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    color: #FFFFFF;
+    font-weight:bold;
+}
+.reservation_header div:nth-last-child(1) {
+    margin-left: 20px;
+    color: darkgrey;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.fw {
+    font-weight: bold;
+}
+.darkGrey{
+    color:darkgrey;
+}
+.yy_progress {
+    width: 100%;
+    background-color: #D7DEE8
+}
+
+.yy_progress .progress {
+    width: 50%;
+    height: 10px;
+    background-color: #AAE67D;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.red{
+    color: red;
+}
+.main input,
+.main select {
+    width: 210px;
+    margin-left: 9px;
+    padding: 4px 12px;
+    margin-bottom: 10px;
+}
+.addUnlimited{
+    margin-left: 15px;
+}
+.mT5{
+    margin-top: 5px;
+}
+
+ .checkbox label{
+    padding-left: 5px;
+}
+.h32{
+    height: 32px;
+}
+.main h4{
+    margin: 10px 0;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{-webkit-appearance: none !important;  margin: 0;  }
+input[type="number"]{  -moz-appearance:textfield; }
+#bargainContent{
+}
+
+
+
+
+
+
+
+

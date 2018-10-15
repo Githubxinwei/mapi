@@ -1,0 +1,175 @@
+/*场馆管理座位排次css*/
+.tabs-container .nav-tabs > li.active > a, .tabs-container .nav-tabs > li.active > a:hover, .tabs-container .nav-tabs > li.active > a:focus{
+    border:none;
+    background-color: transparent;
+    color: #70CC29;
+}
+.oP0{
+    opacity: 0;
+}
+.pdLr0{
+    padding-left: 0;
+    padding-right: 0;
+}
+.selectPd{
+    padding: 4px 12px;
+    border-radius: 3px;
+}
+.boxCss{
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    height: 140px;
+    box-shadow: 0 0 1px #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tabs-container .panel-body{
+    background-color: transparent !important;
+    border: none;
+}
+.m10{
+    margin: 10px;
+    /*margin-right: 10px;*/
+}
+.mT10{
+    margin-top: 10px;
+}
+.pL0{
+    padding-left: 0;
+}
+.boxCss h2{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.f18{
+    font-size: 18px;
+}
+.color999{
+    color: #999;
+}
+.tabs-container .nav-tabs{
+    border-bottom: none;
+}
+.removeCss{
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    color: #999;
+}
+.contentCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+.heightCenter{
+    display:flex;
+    align-items:center;
+}
+.mTB20{
+    margin: 20px auto;
+}
+.mT20{
+    margin-top: 20px;
+}
+.red{
+    color: red;
+}
+.selectCss{
+    padding: 4px 12px;
+}
+.mT30{
+    margin-top: 30px;
+}
+.mT6{
+    margin-top: 6px;
+}
+.w100{
+    width: 100px;
+}
+.f16Col999{
+    font-size: 16px;
+    color: #999;
+}
+.f28{
+    font-size: 28px;
+}
+.f400{
+    font-weight: 400;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{-webkit-appearance: none !important;  margin: 0;  }
+input[type="number"]{  -moz-appearance:textfield;  }
+/*.seatSize{*/
+    /*width: 40px;height: 60px;border:solid 1px #999;text-align: center;*/
+/*}*/
+.seatSize{
+    width: 30px;height: 45px;border:solid 1px #999;text-align: center;
+}
+.m4{
+    margin: 4px;
+}
+.p4{
+    box-sizing: content-box;
+}
+.seatRowLists{
+    width: 100%;
+}
+.seatDetailLists{
+    width: 100%;
+}
+.seatRowLists li{
+    display: inline-block;
+}
+.borderNone{
+    border:none !important;
+}
+.tdBut{
+    opacity: 0;
+    border:none !important;
+    cursor: pointer;
+}
+.tdBut1{
+    opacity: 0;
+    border:none !important;
+    cursor: pointer;
+}
+.disNone{
+    display: none;
+}
+
+.tdBut1:hover{
+    opacity: 1;
+    color: #51D76A;
+    border:solid 1px #999 !important;
+}
+.tdBut:hover{
+    opacity: 1;
+    color: #51D76A;
+    border:solid 1px #999 !important;
+}
+/*.tdBut:nth-last-child(1):hover{*/
+    /*opacity: 0;*/
+    /*border:none;*/
+/*}*/
+/*.tdBut:nth-child(1):hover{*/
+    /*opacity: 0;*/
+    /*border:none;*/
+/*}*/
+.bottomAddTdButLists > .bottomAddTdBut:nth-last-child(1):hover{
+    opacity: 0;
+    border:none;
+    cursor: none;
+}
+.bottomAddTdButLists > .bottomAddTdBut:nth-child(1){
+    opacity: 0;
+    border:none;
+    cursor: none;
+}
+/*.seatEditSize{*/
+    /*width: 40px;height:60px;border:solid 1px #999;text-align: center;*/
+/*}*/
+.seatEditSize{
+    width: 30px;height:45px;border:solid 1px #999;text-align: center;
+}
+

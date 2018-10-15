@@ -1,0 +1,44 @@
+.pd0 {
+    padding: 0;
+}
+.red {
+    color: red;
+}
+.MT20 {
+    margin: 20px 0;
+}
+.input-group-addon {
+    background-color: #27c24c;
+    border-color: #27c24c;
+    border-radius: 4px;
+}
+hr {
+    margin: 10px 0;
+}
+.btn-padding {
+    padding: 5px 25px;
+    margin: 5px;
+}
+.inputStyle {
+    height: 28px;
+    border-radius: 4px;
+    padding: 7px;
+    border: 1px solid #aaa;
+}
+.frozenInputLabel {
+    margin: 0;
+    vertical-align: middle;
+}
+.frozenInputLabel > input {
+    margin: 0;
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+}
+.select2-container--default{
+    width: 100% !important;
+}
+/*解决bootstrap模态框中select2的下拉框无法显示问题*/
+.select2-container--open{
+    z-index: 3000;
+}

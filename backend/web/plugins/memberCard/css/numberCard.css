@@ -1,0 +1,650 @@
+/*次卡页面注释*/
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+#page-wrapper{padding: 0;}
+
+
+
+table{width: 90%;margin: 13px auto;text-align: center;}
+table td{height: 35px;width: 35px;border: solid 1px #CCD6E3;}
+.tdClass{border: none;}
+
+#from1{width: 280px;margin: 0 auto;}
+.margin{margin-bottom: 5px;margin-top: 5px;float: left;}
+
+#from1>div:nth-of-type(3){border: solid 1px rgb(204,214,217);}
+#from1>select,#from1>input:nth-of-type(1),#from1>input:nth-last-of-type(1){width: 100%;height: 35px;}
+#from1>input:nth-last-of-type(1){text-align: center;}
+
+.inputText{width: 70px;height: 30px;border: none;border-radius: 5px;}
+
+.checkbox-inline{padding: 0;width: 300px;}
+.checkbox-inline input{display: inline-block;}
+.checkbox-inline>input:nth-of-type(2){margin-left: 30px;}
+
+
+#checkboxSelect input[type="text"]{width: 85px;display: inline-block;}
+.i-checks span，.i-checks input,.i-checks div{display: inline-block;}
+.i-checks{text-align: left;margin: 0;}
+.clearfixs{position: relative;
+    top: 23px;}
+
+
+.background_color{background: red;}
+
+.sectionT section{display: inline-block;width: 49%;}
+
+.wizard .content{
+    /*min-height: 1000px !important;*/
+    z-index: 9999;
+}
+.modal-backdrop{
+    display: none !important;
+    z-index: 10;
+    background-color: rgb(0, 0, 0);
+}
+.wizard .content .body{
+    float: left !important;
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    padding: 2.5% !important;
+}
+
+.pd0{
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+.titleP{
+    font-size: 14px;
+    color: #333;
+}
+.step-content .body .current{
+    background: #fff !important;
+}
+#wizard-p-0{
+    background: #fff;
+}
+table{
+    text-align: center;
+    margin: 20px 30px;
+}
+table td{
+    height: 40px;
+    width: 40px;
+    border: solid 1px #e5e5e5;
+}
+.tdClass{
+    border: none;
+}
+.bColor{
+    background-color: darkgrey;
+    color: #FFFFFF;
+}
+.weekSelect{
+    font-size: 16px;
+    margin-top: 15px;
+    display: flex;
+}
+.wizard > .content{
+    background-color: #FFFFFF;
+}
+.disNone{
+    display: none;
+}
+.fl{
+    float: left;
+}
+.reservation_header {
+    height: 54px;
+    width: 100%;
+    line-height: 54px;
+    background-color: #E5EAF0;
+}
+.w20 {
+    width: 20%;
+}
+.yy_progress {
+    width: 100%;
+    background-color: #D7DEE8
+}
+
+.yy_progress .progress {
+    width: 50%;
+    height: 10px;
+    background-color: #AAE67D;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.reservation_header .w20 {
+    color: #FFFFFF;
+    height: 54px;
+    line-height: 54px;
+    font-size: 20px;
+    background-color: #70CC29;
+    text-align: center;
+}
+
+.reservation_header div:nth-last-child(1) {
+    margin-left: 20px;
+    color: darkgrey;
+}
+.w32{
+    width: 33%;
+    margin: 20px 0 0 0;
+    display: flex;
+}
+.w32 span{
+    margin-top: 5px;
+}
+.w100{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+}
+.w100 span{
+    width: 80px;
+    margin-top: 5px;
+}
+.w100 input{
+    width: 120px;
+    margin-left: 15px;
+}
+.w32 input,.w32 select{
+    width: 200px;
+    margin-left: 15px;
+}
+.form-control{
+    padding: 4px 12px;
+}
+table{
+    text-align: center;
+    margin: 20px 30px;
+}
+table td{
+    height: 40px;
+    width: 40px;
+    border: solid 1px #e5e5e5;
+}
+.tdClass{
+    border: none;
+}
+.bColor{
+    background-color: darkgrey;
+    color: #FFFFFF;
+}
+.weekSelect{
+    margin-top: 15px;
+    display: flex;
+}
+.week{
+    width: 100px;
+}
+.wizard > .content{
+    background-color: #FFFFFF;
+}
+.checkbox label{
+    padding-left: 0;
+}
+.checkbox-inline{
+    margin: 10px 0 0 0;
+}
+.disNone{
+    display: none;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{-webkit-appearance: none !important;  margin: 0;  }
+input[type="number"]{  -moz-appearance:textfield;  }
+/*添加公用注释*/
+.p3080{
+    padding: 30px 80px;
+}
+.wB100{
+    width: 100%;
+}
+.m0Auto20{
+    margin:0 auto 20px;
+}
+.red{
+    color: red;
+}
+.w180{
+    width: 180px !important;
+}
+.w80{
+    width: 80px;
+}
+.mL60{
+    margin-left: 60px;
+}
+.mL26{
+    margin-left: 26px !important;
+}
+.w115{
+    width: 115px !important;
+}
+.w70{
+    width: 70px !important;
+}
+.mT15{
+    margin-top: 15px;
+}
+.color999{
+    color: #999;
+}
+.f12{
+    font-size: 12px;
+}
+.w125{
+    width: 125px;
+}
+.pRelative{
+    position: relative;
+}
+.null{
+    opacity: 0;
+}
+.unlimitedInputOne{
+    width: 130px !important;
+    border: none !important;
+    margin-left: 0 !important;
+}
+.unlimitedDivOne{
+    border: solid 1px #cfdadd;margin-left: 15px;border-radius: 3px;
+}
+.t4{
+    top:4px;
+}
+.dateCss{
+    width: 102px !important;
+    text-align: left;
+    font-size: 13px;
+    cursor: pointer;
+}
+.pT4{
+    padding-top: 4px;
+}
+.mL100T15{
+    margin:15px 0 0 100px;
+}
+.mTB60{
+    margin: 60px 0;
+}
+.mL10{
+    margin-left: 10px;
+}
+.w300{
+    width: 300px;
+}
+.w66{
+    width: 66px;
+}
+.mB10{
+    margin-bottom: 10px;
+}
+.border1{
+    border:solid 1px #E5E5E5;
+}
+.mT20B10{
+    margin:20px  0 10px 20px;
+}
+.mT20{
+    margin-top: 20px !important;
+}
+.w90{
+    width: 90px;
+}
+.borderRadius3{
+    border-radius: 3px;
+}
+.w250{
+    width: 250px;
+}
+.mL15{
+    margin-left: 15px;
+}
+.mT40{
+    margin-top: 40px;
+}
+.mT4{
+    margin-top: 4px;
+}
+
+.mL30{
+    margin-left: 30px;
+}
+.bindingCombo{
+    margin: 0 auto 20px 20%;
+}
+
+.mT60{
+    margin-top: 60px;
+}
+.wB60{
+    width: 60%;
+}
+
+.inputUnlimited{
+    border: solid 1px #cfdadd;
+    margin-left: 15px;
+    border-radius: 3px;
+}
+.inputUnlimited input{
+    width: 130px;
+    border: none !important;
+    margin-left: 0;
+}
+.addBtn{
+    margin:15px 0 0 93px;
+}
+.mT0{
+    margin-top: 0;
+}
+.wB80{
+    width: 80%;
+}
+.margin0Auto{
+    margin: 0 auto;
+}
+.wB20{
+    width: 20%;
+}
+.fsN{
+    font-style: normal;
+}
+.f13{
+    font-size: 13px;
+}
+.w140{
+    width: 140px;
+}
+.disIb{
+    display: inline-block !important;
+}
+.mL20{
+    margin-left: 20px;
+}
+.mB5{
+    margin-bottom: 5px;
+}
+.w200{
+    width: 200px;
+}
+.minHeight100{
+    min-height: 100px;
+}
+.mB30{
+    margin-bottom: 30px;
+}
+.mT30{
+    margin-top: 30px;
+}
+.mB15{
+    margin-bottom: 15px;
+}
+.contractCss{
+    display:block;
+    height: 300px;
+    overflow-y: scroll;
+}
+.mT10{
+    margin-top: 10px;
+}
+.numCardLabel{
+    font-size: 13px;
+    font-weight: normal !important;
+    color: #333;
+    display: inline-block !important;
+}
+.numCardInput{
+    padding-top: 4px;
+    display: inline-block !important;
+}
+.numCardInput1{
+    margin-left: 20px !important;
+    padding-top: 4px;
+    width: 104px !important;
+    display: inline-block !important;
+}
+.op0{
+    opacity: 0;
+}
+.disBlock{
+    display: block !important;
+}
+.yuan{
+    padding-top: 4px;
+    width: 140px;
+    display: inline-block !important;
+}
+.mL18{
+    margin-left: 18px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: '';
+    visibility: hidden;
+    height: 0;
+}
+/*第一步*/
+.oneStepPrice{
+    font-size: 13px;font-weight: normal;color: #333;display: inline-block;
+}
+.oneStepActive{
+    display: block;margin-top: 30px;
+}
+.oneChoicePrice{
+    font-size: 13px;font-weight: normal;color: #333;
+}
+.oneStepSell{
+    margin-left: 20px;padding-top: 4px; width: 180px;
+}
+.oneStepSellNumber{
+    margin-top: 10px;margin-left: 60px;
+}
+.oneStepSellNumbers{
+    border: solid 1px #cfdadd;margin-left: 15px;border-radius: 3px;display: inline-block;
+}
+.oneStepSellLess{
+    width: 130px;border: none;margin-left: 0;
+}
+.oneStepMax{
+    top: 4px;width:58px;display: inline-block;
+}
+.oneStepTimeStar{
+    width: 106px;text-align: left;font-size: 13px;cursor: pointer;margin-left: 0px;
+}
+.oneStepStar{
+    width: 100px;text-align:left;font-size: 13px;cursor: pointer;
+}
+.oneStepTime{
+    width: 106px;text-align: left;font-size: 13px;cursor: pointer;margin-left: 4px;
+}
+.oneStepSellVenue{
+    margin-top: 10px;margin-left: 96px;
+}
+.oneStepXianZhi{
+    margin-top: 20px;margin-left: 60px;position: relative;
+}
+.oneStepSelling{
+    padding-top: 4px; width: 166px;display: inline-block;padding-right: 70px;
+}
+.oneStepMonth{
+    font-size: 12px;color: #999;
+}
+.oneStepDay{
+    width: 300px;margin-top: 15px;
+}
+.oneStepMonthDay{
+    border: solid 1px #e5e5e5;padding-right: 40px;
+}
+.oneStepSellTime{
+    position: relative; width: 250px;margin:20px 0 20px 20px;
+}
+/*第二步*/
+.two{
+    background: #fff;
+}
+.twoStep{
+    padding: 30px 80px 0px 80px;
+}
+.twoStepClass{
+    margin-left: 20px;padding-top: 4px; width: 180px;
+}
+.twoStepDay{
+    margin-top: 10px;margin-left: 60px;position: relative;
+}
+.twoStepDayClass{
+    margin-left: 20px;padding-top: 4px; width: 180px;display: inline-block;padding-right: 70px;
+}
+.twoStepClassIng{
+    position: absolute; top: 4px;left: 200px;
+}
+.w-100{
+    width: 180px!important;
+}
+.mrt20{
+    margin-top: 20px;
+}
+.venueSaleBox{
+    position: relative;
+}
+.venueSaleDelete{
+    position: absolute;
+    top: -2px;
+    right: -40px;
+}
+.validW80{
+    width: 80px !important;
+}
+.mL80{
+    margin-left: 80px !important;
+}
+
+.select2-drop {
+    z-index: 10050 !important;
+}
+
+.select2-search-choice-close {
+    margin-top: 0 !important;
+    right: 2px !important;
+    min-height: 10px;
+}
+
+.select2-search-choice-close:before {
+    color: black !important;
+}
+/*防止select2不会自动失去焦点*/
+.select2-container {
+    z-index: 16000 !important;
+    height: 30px;
+}
+
+.select2-drop-mask {
+    z-index: 15990 !important;
+}
+
+.select2-drop-active {
+    z-index: 15995 !important;
+}
+.select2-container .select2-selection--single {
+    height:30px;
+}
+#select2-homePageVenueSelect123-container{
+    min-width: 200px;
+    z-index: 100 !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    font-size: 14px;
+    padding-left: 16px;
+    border-radius: 3px;
+}
+.select2-drop {
+    z-index: 10050 !important;
+}
+
+.select2-search-choice-close {
+    margin-top: 0 !important;
+    right: 2px !important;
+    min-height: 10px;
+}
+
+.select2-search-choice-close:before {
+    color: black !important;
+}
+/*防止select2不会自动失去焦点*/
+.select2-container {
+    z-index: 16000 !important;
+    height: 30px;
+}
+
+.select2-drop-mask {
+    z-index: 15990 !important;
+}
+
+.select2-drop-active {
+    z-index: 15995 !important;
+}
+.select2-container .select2-selection--single {
+    height:30px;
+}
+#select2-homePageVenueSelect123-container{
+    min-width: 200px;
+    z-index: 100 !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    font-size: 14px;
+    padding-left: 16px;
+    border-radius: 3px;
+}.select2-drop {
+     z-index: 10050 !important;
+ }
+
+.select2-search-choice-close {
+    margin-top: 0 !important;
+    right: 2px !important;
+    min-height: 10px;
+}
+
+.select2-search-choice-close:before {
+    color: black !important;
+}
+/*防止select2不会自动失去焦点*/
+.select2-container {
+    z-index: 16000 !important;
+    height: 30px;
+}
+
+.select2-drop-mask {
+    z-index: 15990 !important;
+}
+
+.select2-drop-active {
+    z-index: 15995 !important;
+}
+.select2-container .select2-selection--single {
+    height:30px;
+}
+#select2-homePageVenueSelect123-container{
+    min-width: 200px;
+    z-index: 100 !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    font-size: 14px;
+    padding-left: 16px;
+    border-radius: 3px;
+    margin-top: 0px !important;
+}
+.w32 span.select2 {
+    margin-top: 0px !important;
+}

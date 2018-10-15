@@ -1,0 +1,871 @@
+.tdBtn{  opacity: 0;  }
+tr:hover .tdBtn { opacity: 1 }
+.mL15{
+    margin-left: 15px;
+}
+.DN {
+    display: none;
+}
+.mL6{
+    margin-left: 6px;
+}
+.ibox-content{
+    padding: 0px;
+}
+.m20 {
+    margin: 20px;
+}
+.pd15 {
+    padding: 15px;
+}
+.lh32 {
+    height: 32px;
+    line-height: 32px;
+}
+.table{
+    margin-bottom: 0;
+}
+.inputStyle {
+    width: 201px;
+    font-size: 16px;
+    padding: 2px 15px;
+}
+.btn-padding {
+    padding: 6px 35px;
+}
+.checkPrint{
+    opacity: 0;
+}
+.checkPrint{
+    opacity: 0;
+}
+tr:hover .checkPrint{
+    opacity: 1;
+}
+.addPayPrice {
+    height: 30px;
+    width: 102px;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+    border-radius: 1px;
+}
+.addPayMethodSelect {
+    width: 101px;
+    height: 30px;
+}
+.addPayMethodButton {
+    margin-right: 10px;
+    font-size: 12px;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{-webkit-appearance: none !important;  margin: 0;  }
+input[type="number"]{  -moz-appearance:textfield;  }
+.checkCardTable img{
+    width: 50px;
+}
+.checkCardTable .ibox{min-height: 200px;margin-bottom: 10px;}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: '';
+    visibility: hidden;
+    height: 0;
+}
+
+.table > thead:first-child > tr:first-child > th{padding-top: 0;padding-bottom: 0;}
+.courseDate{
+    color: #999999;
+    font-size: 12px;
+    margin-top: -10px;
+}
+.seatFlag,
+.seat{
+    width: 20px;
+    height: 26px;
+    border:solid 1px #e5e5e5;
+    margin-bottom: 26px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.centerHeight{
+    display: inline-flex;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 0;
+}
+.centerHeight span{
+    font-size:12px;
+}
+.pdLr0{
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+}
+.notSelect{
+    background-image: url("/plugins/checkCard/img/notSelect.png");
+    background-size: 100% 100%;
+}
+.notSelect1{
+    background-color: red;
+}
+.selected{
+    background-image: url("/plugins/checkCard/img/selected.png");
+    background-size: 100% 100%;
+}
+.selectedVip{
+    background-image: url("/plugins/checkCard/img/vip.png");
+    background-size: 100% 100%;
+}
+.selectedVip1{
+    background-image: url("/plugins/checkCard/img/vip.png");
+    background-size: 100% 100%;
+}
+.selectedExtrawell{
+    background-color: #0a0a0a;
+}
+.seat span{
+    position: absolute;
+    bottom: -20px;
+
+}
+.buyCardNoteBox {
+    margin-top: 16px;
+}
+.buyCardNoteTip {
+    display: inline-block;
+    margin-left: 20px;
+}
+/*.potentialMemberBuyCardNote {*/
+    /*resize: none;*/
+    /*margin: -16px 0 0 60px;*/
+    /*display: inline-block;*/
+/*}*/
+.commentColor{
+    color: #33BC7B;
+}
+
+.completeMes li{
+    margin-top: 6px;
+    color: #999999;
+}
+
+div#fieldDiv,
+div#courseUiPrints,
+div#uiPrints{
+    height: 70px;
+    margin: 0;
+    padding: 0;
+}
+div#field,
+div#coursePrints,
+div#prints{
+    display: none;
+}
+div#fieldDiv ul,
+div#courseUiPrints ul,
+div#uiPrints ul{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    height: 30px;
+}
+div#fieldDiv ul li,
+div#courseUiPrints ul li,
+div#uiPrints ul li {
+    width:200px;
+    text-align: left;
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+/*自定义栅格*/
+.col-xs-1-7,.col-sm-1-7,.col-md-1-7,.col-lg-1-7 {
+    min-height: 1px;
+    /*padding-left: 15px;*/
+    /*padding-right: 15px;*/
+    position: relative;
+}
+
+.col-xs-1-7 {
+    width: 14.28%;
+    float: left;
+}
+.w1280W {
+    width: 80%;
+}
+@media screen and (max-width: 1280px) {
+    .w1280W {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .col-sm-1-7 {
+        width: 14.28%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-1-7 {
+        width: 14.28%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-1-7 {
+        width: 14.28%;
+        float: left;
+    }
+}
+.lists{
+
+    border-right:solid 1px #e5e5e5;
+}
+.lists ul{
+    min-height:100px;
+    /*border-collapse:collapse;*/
+    /*border-left: solid 1px #e5e5e5;*/
+    /*margin-right: -1px;*/
+    /*margin-left: -1px;*/
+    /*margin-bottom: -1px;*/
+}
+.borderR,
+.weekDate{
+    border-bottom: solid 1px #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    margin-left: -1px;
+    margin-bottom: -1px;
+}
+.weekDate {
+    border-right:solid 1px #e5e5e5;
+}
+.weekDate>li{
+    padding-left: 15px;
+}
+.weekDate>li:nth-child(1){
+    color: #666;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.weekDate>li:nth-last-child(1){
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+.borderR>li{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+.borderR>li:nth-child(1){
+    padding-top: 18px;
+    padding-bottom: 4px;
+}
+.borderR>li:nth-child(2){
+    font-weight: bold;
+    color: #999999;
+}
+
+.dateCurrent{color:rgb(255,255,255);font-weight: bold; }
+.dateCurrents{color: yellowgreen; font-weight: bold;}
+.pd0{
+    padding: 0;
+}
+.mainBox{padding: 16px 5px 20px 5px;margin-bottom: 20px}
+.searchInput{height: 34px;line-height: 7px;}
+
+#DataTables_Table_0_wrapper{padding-bottom: 0;}
+.mainBoxWWW{margin-top: 20px}
+.myModalLabel1{text-align: center;font-size: 20px;}
+
+.myModalDiv1{margin-top: 10px;}
+.myModalDiv1>div:nth-of-type(1){text-align: center;}
+.myModalDiv1>div:nth-of-type(1)>img{width: 160px;margin-top: 60px}
+.myModalFontSize{font-size: 14px;}
+
+.myModalDiv1>div:nth-of-type(2){margin-top: 10px;}
+
+#myModal2{display: none;}
+#myModal2>div{width: 75%;}
+#myModal2>div h4{text-align: center;font-size: 18px;}
+.depositInput{width: 200px;height: 30px}
+.depositDiv{width: 300px;}
+.paddingLeft{padding-left: 0;}
+.paddingRigth{padding-right: 0;}
+
+.myModal2DivBox{margin-top: 20px;}
+
+/*.myModal2DivBox>div{padding-left: 100px;padding-right: 80px;}*/
+.myModal2DivBox>div{padding-left: 50px;padding-right: 40px;}
+.myModal2DivBox>div>p{font-size: 16px;font-weight: bold;}
+
+.formInlineAdd>div:nth-of-type(1){margin-top: 20px;}
+.formInlineAddLabel{font-weight: normal;font-size: 14px;color: #999;}
+.formInlineAddSpan{color: red;}
+
+/*.formInlineAdd>div:nth-of-type(1) input{margin-left: 5px}*/
+.formInlineAdd>div:nth-of-type(1) span{color: red;}
+
+/*.formInlineAdd>div:nth-of-type(2){margin-top: 20px;padding-left: 4%;}*/
+.formInlineAdd>div:nth-of-type(2){margin-top: 20px;}
+/*.formInlineAdd>div:nth-of-type(2) input{margin-left: 5px}*/
+
+/*.formInlineAdd>div:nth-of-type(3){margin-top: 20px;padding-left: 4%;}*/
+.formInlineAdd>div:nth-of-type(3){margin-top: 20px;}
+.formInlineAdd>div:nth-of-type(3) select{padding-top: 4px;height: 30px;width: 180px;}
+
+.formInlineAdd>div:nth-of-type(4){margin-top: 20px;margin-right: 27px}
+/*.formInlineAdd>div:nth-of-type(4) input{margin-left: 5px}*/
+.w1280mt20 {
+    margin-top: 0;
+}
+@media (max-width: 1280px) {
+    .w1280mt20 {
+        margin-top: 23px;
+    }
+
+    #potentialPurchaseModal>div{
+        width: 90%!important;
+    }
+}
+.formInlineAdd>div:nth-of-type(5){margin-top: 20px;}
+.formInlineAdd>div:nth-of-type(5) input{font-size: 14px;width: 180px;}
+
+.formInlineAdd>div:nth-of-type(6){margin-top: 20px;}
+.formInlineAdd>div:nth-of-type(6) select{height: 30px;width: 180px;line-height: 30px;padding-top: 4px;margin-left: 5px;}
+
+
+.formInlineAdd2>div:nth-of-type(1){margin-top: 20px;}
+.formInlineAdd2>div:nth-of-type(1) select{width: 180px;padding-top: 2px;height: 30px;font-size: 14px;margin-left: 6px}
+
+.formInlineAdd2>div:nth-of-type(2){margin-top: 40px;}
+.formInlineAdd2>div:nth-of-type(2)>textarea{width: 100%;}
+.formInlineAdd2>div:nth-of-type(3){margin-bottom: 40px;margin-top: 20px;}
+
+
+#potentialPurchaseModal>div{width: 80%;}
+.potentialPurchaseModalBody>div{border: none;}
+.potentialPurchaseModalBody>div>div:nth-of-type(1){border: 1px solid #e5e5e5;}
+
+.potentialPurchaseModalBody>div>div:nth-of-type(1){border: 1px solid #e5e5e5;}
+
+
+.purchaseModalBody{min-height: 300px}
+.purchaseModalBody>div:nth-of-type(1){margin-top: 20px}
+.purchaseModalBody>div:nth-of-type(2)>div:nth-of-type(2)>span{color: red;font-size: 14px;margin-top: 3px}
+.purchaseModalBody>div:nth-of-type(2)>div:nth-of-type(3){margin-left: -40px}
+.purchaseModalBody>div:nth-of-type(2)>div:nth-of-type(3)>input{font-size: 12px}
+
+.purchaseModalBody>div:nth-of-type(2)>div:nth-of-type(4){margin-top: 3px}
+.purchaseModalBody>div:nth-of-type(2)>div:nth-of-type(4)>span{color: red;font-size: 14px}
+.purchaseModalBody>div:nth-of-type(2)>div:nth-of-type(5){margin-left: -33px}
+.purchaseModalBody>div:nth-of-type(2)>div:nth-of-type(5)>input{font-size: 12px}
+.purchaseModalBody>div:nth-of-type(2)>div:nth-of-type(6){margin-top: 3px}
+.purchaseModalBody>div:nth-of-type(2)>div:nth-of-type(6)>span{color: red;font-size: 14px}
+#idCardSelect{}
+.mt10{
+    margin-top: 10px;
+}
+.purchaseModalBodyspan{color: red;font-size: 14px;margin-top: 3px}
+.purchaseModalBodyspans{color: red;font-size: 14px;}
+.purchaseModalBodydiv{margin-left: -40px}
+.purchaseModalBody>div:nth-of-type(3){margin-top: 40px}
+.purchaseModalBody>div:nth-of-type(4){margin-top: 20px;position: relative;}
+.red{
+    color: red!important;
+}
+
+.purchaseModalBodydivInput{font-size: 12px}
+.purchaseModalBody>div:nth-of-type(5){margin-top: 40px}
+
+.fukuan{margin-top: 3px;margin-left: 80px}
+
+
+.xiaoshou{margin-top: 3px;margin-left: 60px}
+
+
+.shoufu{display: none;}
+.shoufu>div:nth-of-type(1){margin-top: 3px;margin-left: 67px}
+.shoufu>div:nth-of-type(1)>span{color: red;font-size: 14px}
+
+#firstPayMonths{margin-left: -18px;height: 27px}
+
+.footerz{padding-left: 24px;margin-top: 40px;margin-bottom: 40px;}
+.footerz>div:nth-of-type(2){margin-top: 3px}
+.footerz>div:nth-of-type(2)>span{color: red;font-size: 14px}
+
+
+.footerzDiv{margin-left: -40px;width: 175px;}
+.footerzDiv input{font-size: 12px;width: 200px;}
+.monthBox{margin-top: 40px;display: none;}
+.pdl4{
+    padding-left: 4%;
+}
+#ddlregtype{
+    padding-top: 4px;
+    width: 180px;
+}
+.fontSizeFontWeight{font-size: 16px;font-weight: bold;}
+.addBuyCard>div{margin-top: 15px}
+.addBuyCard input{width: 100px;}
+.ppp span{margin-left: 20px;}
+.imgHeader{  margin-top: 0 !important;width: 140px !important;height: 140px !important;border-radius: 50% !important; }
+.heightCenter{display: flex;align-items: center;flex-wrap: wrap;}
+     /*select2在Bootstrap的modal中默认被遮盖，现在强制显示在最前*/
+ .select2-drop {
+     z-index: 10050 !important;
+ }
+
+/*.select2-search-choice-close {*/
+    /*margin-top: 0 !important;*/
+    /*right: 2px !important;*/
+    /*min-height: 10px;*/
+/*}*/
+
+/*.select2-search-choice-close:before {*/
+    /*color: black !important;*/
+/*}*/
+/*防止select2不会自动失去焦点*/
+.select2-container {
+    z-index: 16000 !important;
+}
+
+.select2-drop-mask {
+    z-index: 15990 !important;
+}
+.venueChangeBigBox>span {
+    z-index: 2!important;
+}
+.sellChangeBigBox>span {
+    z-index: 2!important;
+}
+/*.select2-drop-active {*/
+    /*z-index: 15995 !important;*/
+/*}*/
+/*#select2-6s1r-container{*/
+    /*width: 180px!important;*/
+/*}*/
+/*.select2-container--default{*/
+    /*width: 175px!important;*/
+/*}*/
+/*.select2-selection--single{*/
+    /*height: 30px!important;*/
+    /*font-size: 14px!important;*/
+    /*border-radius: 2px!important;*/
+    /*border: 1px solid #cfdadd!important;*/
+/*}*/
+.updateTitle{
+    text-align: center;
+    padding-left: 20px;
+}
+.w-80{
+    width: 80%;
+}
+.w100{
+    width: 100px;
+}
+.pdw80h40{
+    padding: 40px 80px 20px 80px;
+}
+.titleP{
+    font-size: 14px;
+    font-weight: bold;
+}
+.mrt20{
+    margin-top: 20px;
+}
+.span-control{
+    padding-top: 7px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.select-control{
+    padding-top: 4px;
+}
+.pdr18{
+    padding-right: 24px;
+}
+.pdl10{
+    padding-left: 10px;
+}
+.mrr5{
+    margin-right: 5px;
+}
+
+.containerFluidMain{background-color: #FFFFFF;margin-top: 10px;border-radius:6px ;}
+.color999999{color: #999999}
+.fontSize20{font-size: 20px;}
+.containerSmallBox{border: solid 1px #e5e5e5; background-color: #FFFFFF;padding: 10px;}
+.ml0{margin-left: 0;}
+.mr0{margin-right: 0;}
+.backgroundE3EAF2{background-color: #E3EAF2;}
+.borderSolidE5e5e5{border: solid 1px #e5e5e5;}
+.mt0{margin-top: 0;}
+.mt20{
+    margin-top: 20px;
+}
+.formLabel{
+    font-size: 14px;
+    color: #999;
+    font-weight: normal;
+}
+b{
+    font-size: 14px;
+}
+.borderRightNone{border-right: none;}
+.textAlignCenter{text-align: center}
+.mt20{margin-top: 20px;}
+.myModalButton{display: flex;justify-content: center;}
+.myModalCompleteRow{display: flex;align-items: center;}
+.w100{ width:100px;}
+.color33BC7B{color: #33BC7B;}
+.padding6_20{padding:6px 20px;}
+.mr20{margin-right: 20px;}
+.w175{
+    width:175px ;
+}
+.pdl0{
+    padding-left: 0;
+}
+.pdl0>select{
+    font-size: 12px!important;
+}
+
+.totalRowsDiv{width: 26px;display: inline-block;}
+.tabBox{
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    border: solid #eee;
+    border-width: 0 0 1px 0;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.tabBox:hover{
+    font-weight: bold;
+    color: #70cc29;
+}
+.tabBig{
+    margin-top: 10px;
+    border: solid #eee;
+    border-width: 1px 0 0 0;
+}
+.activeBox{
+    font-weight: bold;
+    color: #70cc29;
+    border: solid #70cc29;
+    border-width: 0 0 2px 0;
+}
+.ft13{
+    font-size: 13px;
+    width: 100px;
+}
+.sendCardName{
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+.mr20{
+    margin-top: 20px;
+}
+.sendCardOther{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.mtt20{
+    margin-bottom: 20px;
+}
+.bgw{
+    background: #fff!important;
+}
+.tbodySendCard{
+    height: 270px;
+    overflow-y: auto;
+}
+.tbodySendCardRecord{
+    height: 400px;
+    overflow-y: auto;
+}
+.select2-selection__rendered{
+    text-align: left!important;
+}
+.pdl30Form{
+    padding-left: 36px;
+}
+.pdl30{
+    padding-left: 30px;
+    padding-right: 0;
+}
+.pdt4{
+    padding-top: 4px;
+}
+.buyCardWords{
+    font-size: 14px!important;
+}
+.font-blod{
+    font-weight: bold;
+}
+.pdt20Box{
+    padding-top: 20px;
+}
+.borderGray{
+    padding-left: 40px;
+    border: solid #eee;
+    border-width: 0 1px 0 0;
+}
+.label-words{
+    font-size: 13px;
+    font-weight: normal;
+    color: #999;
+}
+.h2BindingTitle{
+    margin-top: 30px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.inputBindingBox{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.uglyInput{
+    border-radius: 20px;
+}
+.w40Btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0 20px 20px 0;
+    position: absolute;
+    height: 30px;
+    top: 0;
+    right: 0;
+}
+.btnBindingBox{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.btnBoxBinding2{
+    margin-top: 40px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.pdr0{
+    padding-right: 0;
+}
+.pdl0{
+    padding-left: 0;
+}
+.codeBtn{
+    height: 30px;
+    font-size: 13px;
+    padding: 0;
+}
+.nameU{
+    font-size: 18px!important;
+}
+.cardSelectName{
+    font-weight: normal;
+    font-size: 14px;
+    width: 120px;
+}
+.lastOneP{
+    margin-bottom: 40px;
+}
+.bindingUserName{
+    margin-top: 2%;
+    font-size: 18px!important;
+    color: #999;
+}
+.bindingUserTel{
+    margin-top: 4%;
+    font-size: 16px;
+    color: #999;
+}
+.renewMoneyInfoBox{
+    padding-top: 180px;
+}
+.renewMoneyInfoBox>p{
+    text-align: right;
+}
+.renewMoneyInfoBox>p:first-child{
+    font-size: 13px;
+    color: #999;
+}
+.renewMoneyInfoBox>p:last-child{
+    font-size: 16px;
+    color: orange;
+    font-weight: bold;
+}
+.renewTime{
+    padding-top: 7px;
+    font-size: 14px;
+}
+.select2ContentBox{
+    margin-top: 5px;
+}
+.select2ContentBox .select2-selection__rendered{
+    font-size: 14px!important;
+}
+.select2ContentBox .select2-selection{
+    font-size: 14px!important;
+}
+
+.spanCenterHeight1{position: absolute; top: 30px;  left: 58px;}
+.spanCenterHeight{position: absolute; top: 30px;  left: 53px;}
+.spanCenterHeight3{position: absolute; top: 30px;  left: 62px;}
+.oldCardTitle{
+    font-size: 14px;
+    font-weight: normal;
+    color: #999;
+}
+.discountSelect{
+    padding-top: 4px;
+    color: #999;
+    padding-left: 4px;
+}
+.cardNumInput{
+    padding-left: 8px;
+}
+.upsateInfoP{
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+}
+.typeSelect {
+    padding-top: 4px;
+}
+.select2-selection{
+    height: 30px!important;
+    font-size: 14px;
+    border: 1px solid #cfdadd!important;
+    border-radius: 2px!important;
+}
+.select2-selection__rendered{
+   /*border: none;*/
+}
+.renewMoneyInfoBox{
+    padding-top: 160px;
+    padding-bottom: 60px;
+}
+.renewMoneyInfoBox>p{
+    text-align: right;
+}
+.pagination{margin-left: -200px;}
+.positionRelative{
+    position: relative;
+}
+.discountSelectTitle{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    font-size: 12px;
+    color: #999;
+}
+.relativeBox{
+    position: relative;
+}
+.discountWords{
+    position: absolute;
+    top: 35px;
+    font-size: 12px;
+    color: #999;
+}
+.form-control{
+    padding-left: 5px;
+}
+/*调柜样式*/
+.switchCabinetArea{
+    border: 1px solid #eee;
+    border-width:  0 1px 0 0;
+    height: 360px;
+    overflow-y: scroll;
+}
+.switchCabinetAreaCabinetNum{
+    height: 360px;
+    overflow-y: scroll;
+}
+.borderNone{
+    border:none;
+}
+.boxShowNone{
+    box-shadow: none;
+}
+.borderTopNone{
+    border-top: none;
+}
+.wB70{
+    width: 70%;
+}
+.op0{
+    opacity:0;
+}
+.heightCenter{
+    display: flex;
+    align-items: center;
+}
+.contentCenter{
+    display: flex;
+    justify-content: center;
+}
+.pL0{
+    padding-left: 0;
+}
+.pR0{
+    padding-right: 0;
+}
+.f18{
+    font-size: 18px;
+}
+.fw{
+    font-weight: 600;
+}
+
+#fieldModals .table-bordered > tbody > tr > td{
+    /*border:none;*/
+    border-left: none;border-right: none;
+}
+.colorE5{
+    color: #E5E5E5;
+}
+.colorf0f3f4{
+    background-color:#f0f3f4;
+}
+.mT6{
+    margin-top: 6px;
+}
+#siteManagementDetails  nav[huien="moduleHuien"]>div,
+#fieldModals nav[huien="moduleHuien"]>div{
+    display: none;
+}
+#siteManagementDetails  nav[huien="moduleHuien"]>.pagination,
+#fieldModals nav[huien="moduleHuien"]>.pagination {
+    margin-left: 0px;
+}
+.pdLR0{
+    padding-left: 0;
+    padding-right: 0;
+}
+.mT20{margin-top: 20px;}
+.mT10{margin-top: 10px;}
+.selectPd{padding: 4px 12px;}
+.width180{width: 180px !important;}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    overflow-y: auto;
+}

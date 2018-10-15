@@ -1,0 +1,39 @@
+
+.table tr td {bordr: none !important;}
+.form-input{
+    border: 1px solid;
+    width: 100px;
+    height: 80px;
+}
+.form-control1 {
+    min-width: 235px;
+    min-height: 29px;
+    line-height: 10px;
+}
+@media only screen and (min-width: 200px){
+    .form-control1 option{min-width:276px; min-height:37px}
+    .form-control1{min-height: 37px}
+}
+@media (min-width: 310px) and (max-width: 325px) {
+    .sidebar-collapse{
+        display: none;
+    }
+    .navbar-default.navbar-static-side{
+        display: none;
+    }
+}
+.pagination + div{
+    position: absolute;
+    bottom: 62px;
+    right: 20px;
+}
+.pagination + div h6{
+    font-size: 14px;
+}
+.pagination + div h6 b{
+    color: #3399FF;
+    padding: 0 1px;
+}
+nav[huien="moduleHuien"]{
+    position: relative;
+}

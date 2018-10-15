@@ -1,0 +1,33 @@
+.personalCenterHeading{height: 45px;}
+.header2{border-right: solid 1px grey;}
+
+.labelPadding{padding-right: 0;padding-left: 10px;line-height: 30px;}
+
+.inputGroupMp{margin-top: 15px;}
+
+.labelInputs{padding-left: 8px;padding-right: 0;line-height: 30px;}
+.pl0{padding-left: 0; }
+
+.picBox{width: 230px;height: 299px; margin: 0 auto;position: relative;}
+.picBoxDiv1{width: 230px;margin-top: 70px;}
+.picImage{width:150px; height:150px; display:block; margin: 0 auto;z-index: 1000;border-radius: 50%;}
+#imgFlagClass{width: 150px;height: 150px;position: absolute;top:0;left: 40px;}
+.addCss{font-size: 70px;line-height: 120px;z-index: 400;}
+.pFont{display: block;text-align: center;margin-top: 5px;}
+.spanRed{color: red;}
+.inputw{width: 174px;}
+.labelTextAlign{text-align: right;line-height: 30px;}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+.pd0{
+    padding: 0;
+}
+
+
+
+
+
+

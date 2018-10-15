@@ -1,0 +1,28 @@
+
+
+
+
+#form2{width: 300px;height: 100%;margin: 0 auto;border-bottom: none;}
+
+#form2>select{width: 100%;height: 30px;}
+#form2>input:nth-of-type(1){width: 100%;height: 29px;}
+
+
+#divBootom{width: 100%;height: 70px;}
+#divBootom>p{text-align: left;margin-top: 10px;margin-bottom: 10px;}
+#divBootom div{float: left;}
+#divBootom div:nth-of-type(2){margin-left: 10px;}
+#divBootom div:nth-of-type(3){margin-left: 10px;}
+
+
+
+#divTop
+
+#divTop{width: 100%;height: 70px;}
+#divTop>p{text-align: left;margin-top: 10px;margin-bottom: 10px;}
+#divTop div{float: left;}
+#divTop div:nth-of-type(2){margin-left: 10px;}
+#divTop div:nth-of-type(3){margin-left: 10px;}
+
+
+

@@ -1,0 +1,61 @@
+.pd0{
+    padding: 0;
+}
+.pdb0{
+    padding-bottom: 0;
+}
+.pdtb10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.selectPt{
+    padding-top: 4px;
+}
+.ibox-content{
+    height: 580px;
+    overflow-y: auto;
+}
+.boxWhite{
+    background: white!important;
+}
+.hoverBtn{
+    opacity: 0;
+    transition: 0.3s;
+}
+.hoverTr:hover .hoverBtn{
+    opacity: 1;
+}
+.trWidth1{
+    width: 80px;
+}
+.trWidth2{
+    width: 100px;
+}
+.trWidth3{
+    width: 160px;
+}
+.trWidth4{
+    width: 200px;
+}
+.modal-title{
+    font-size: 16px;
+}
+.mr0{
+    margin: 0;
+}
+.border10{
+    border-radius: 10px;
+}
+.list-unstyled{
+    font-size: 14px;
+}
+.mrt20{
+    margin-top: 20px;
+}
+.w100{
+    width: 100%!important;
+    height: 33px!important;
+}
+.searchBtn{
+    width: 100px;
+}

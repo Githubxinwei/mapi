@@ -1,0 +1,212 @@
+body,
+div,
+section,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+a,
+p,
+input,
+form {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+a:hover{
+	color: none;
+	text-decoration: none;
+}
+.of {
+	overflow: hidden;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	display: block;
+	clear: both;
+	content: '';
+	visibility: hidden;
+	height: 0;
+}
+
+.f12{
+	font-size: 12px;
+}
+.f14 {
+	font-size: 14px;
+}
+.f16 {
+	font-size: 16px;
+}
+.f20 {
+	font-size: 20px;
+}
+
+.f25 {
+	font-size: 25px;
+}
+
+.f36 {
+	font-size: 36px;
+}
+.f40{
+	font-size: 40px;
+}
+.grey {
+	color: #555555;
+}
+
+.herHover:hover {
+	color: #E5E5E5;
+}
+
+.img {
+	width: 100%;
+	display: block;
+}
+
+/*显示小手*/
+
+.cp {
+	cursor: pointer;
+}
+
+.h45{
+	height: 45px;
+}
+
+/*白色背景*/
+
+.bg_w {
+	background-color: #FFFFFF;
+}
+
+/*每个页面共同的headerCSS*/
+
+
+.main{
+	width: calc(100% - 20px);
+	margin: 0 auto;
+	background-color: #FFF;
+}
+
+
+/*评价性情页CSS*/
+.evaluateDetail{
+	background-color: #FFFFFF;
+	width: 50%;
+	margin: 0 auto;
+}
+.backPage h5{
+	height: 50px;
+	line-height: 50px;
+	margin-left:20px ;
+}
+.MessageDetail{
+	width: 100%;
+	padding: 20px;
+	font-weight: bold;
+	text-spacing: 2px;
+}
+.MessageDetail ul{
+	margin-top: 20px;
+}
+.MessageDetail ul>li{
+	height: 40px;
+}
+.MessageDetail .p_detail{
+	width: 80%;
+}
+
+p{
+	text-indent: 2em;
+	color: dimgrey;
+	padding: 5px;
+}
+.p_detail ul,
+.p_detail li{
+	list-style: none;
+}
+.p_detail{
+	display: inline;
+}
+.headImg{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	font-size: 200%;
+	text-align: center;
+	border: solid 1px #E5E5E5;
+	color: #FFFFFF;
+	background-color: #E5E5E5
+}
+.peopleDetail{
+	height: 50px;
+	line-height: 50px;
+}
+.peopleDetail li{
+	padding-left: 10px;
+}
+.p_detail .revert{
+	display: inline-block;
+	background-color: #FFFFFF;
+	border: solid 1px darkgrey;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	width: 116px;
+	border-radius: 8px;
+	margin: 20px auto;
+}
+@media screen and (max-width:992px){
+	.evaluateDetail {
+		width: 80%;
+	}
+	.MessageDetail .p_detail{
+		width: 100%;
+	}
+	.p_detail.peopleDetail{
+		font-size: 12px;
+	}
+}
+
+@media  screen and (max-width: 420px ) {
+	.evaluateDetail {
+		width: 95%;
+	}
+	.MessageDetail{
+		padding: 5px;
+	}
+
+	.MessageDetail .p_detail{
+		width: 100%;
+	}
+}

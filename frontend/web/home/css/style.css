@@ -1,0 +1,447 @@
+/*index.css 2017-3-18 by CloudSports suyu*/
+body{
+  font-family: "微软雅黑";
+}
+/**滚动条start**/
+::-webkit-scrollbar
+{
+    width: 6px;
+    height: 16px;
+    background-color: #F5F5F5;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+/**滚动条end**/
+.bgp{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.row{
+    margin-left: -15px ;
+    margin-right: 0 ;
+}
+.rewrite-container{
+    padding-right: 0;
+    margin-right: 0;
+}
+.bgBanner{
+    width: 100%;    
+    height: 1080px;
+    /*animation: bg 60s linear infinite;*/
+    background: url("../images/bigbg.jpg");
+    background-size: cover;
+    /*backface-visibility: hidden;*/
+    /*****jquery插件代码start****/
+    /*transform: translate3d(0,0,0);*/
+    /*!*background-color: #348cb2;*!*/
+    /*!*background-image: url(images/bg.jpg);*!*/
+    /*!*background-position: top left;*!*/
+    /*!*background-repeat: repeat-y;*!*/
+    /*!*height: 100%;*!*/
+    /*left: 0;*/
+    /*!*opacity: 1;*!*/
+    /*!*position: fixed;*!*/
+    /*z-index: 1;*/
+    /*top: 0;*/
+}
+@keyframes bg {
+    0% {
+        -moz-transform: translate3d(0,0,0);
+        -webkit-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+    100% {
+        -moz-transform: translate3d(0,-2000px,0);
+        -webkit-transform: translate3d(0,-2000px,0);
+        -o-transform: translate3d(0,-2000px,0);
+        -ms-transform: translate3d(0,-2000px,0);
+        transform: translate3d(0,-2000px,0);
+    }
+}
+
+.container{
+    width: 100%;
+}
+.logo{
+    color: #fff;
+
+}
+.navBox a div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    transition: all  0.5s ease;
+}
+.navBox div a div:hover{
+    background: #fff;
+    color: #65e3d0;
+}
+.word1{
+    margin-top: 16%;
+    font-size: 70px;
+    color: #fff;
+}
+.word2{
+    margin-top: 20px;
+    font-size: 48px;
+    color: #fff;
+}
+.p3,.p4{
+    text-align: center;
+}
+.word1,.word2{
+    text-align: center;
+}
+.indexBtn{
+    margin-top: 40px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    color: #fff;
+    background: #65e3d0;
+    transition: all 0.5s ease;
+}
+.indexBtn:hover{
+    background: #fff;
+    color: #65e3d0;
+}
+.box{
+    margin-top: 15%;
+    background: #fff;
+}
+.p3{
+    margin-top: -10%;
+    font-size: 46px;
+    font-weight: 100;
+}
+.bigBox{
+    overflow: hidden;
+}
+.line{
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 64px;
+    height: 6px;
+    background: #6cbba4;
+}
+.line2{
+    margin: 0 auto;
+    width: 64px;
+    height: 6px;
+    background: #6cbba4;
+}
+.p4{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 18px;
+    color: #888;
+}
+.bgBox2{
+    height: 680px;
+    background: url("../images/bg.jpg") no-repeat 0 0;
+    background-size: cover;
+    text-align: center;
+    padding-top: 16%;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 100;
+}
+.bgBox2 img{
+    margin-top: 3%;
+}
+.pd0{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.box2{
+    padding-top: 6%;
+    padding-bottom: 6%;
+    text-align: center;
+}
+.box3{
+    padding-top: 12%;
+    text-align: center;
+}
+.bgBox3{
+    height: 680px;
+    background: url("../images/bg2.jpg") no-repeat 0 0;
+    background-size: cover;
+    text-align: center;
+    padding-top: 16%;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 100;
+}
+.bgBox4{
+    height: 680px;
+    background: url("../images/bg3.jpg") no-repeat 0 0;
+    background-size: cover;
+    padding-top: 16%;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 100;
+}
+.bgBox5{
+    position: relative;
+    height: 680px;
+    background: url("../images/bg5.jpg") no-repeat 0 0;
+    background-size: cover;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 100;
+}
+.bgBox6{
+    padding-left: 4%;
+    height: 833px;
+    background: url("../images/bg4.jpg") no-repeat 0 0;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 4%;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 100;
+}
+.smallBox1{
+    margin-top: 4%;
+    margin-left: 25%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background: #65e3d0;
+}
+.smallBox2{
+    margin-top: -12%;
+    margin-right: 25%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background: #fff;
+}
+.smallBox1 p{
+    text-align: center;
+    font-size: 32px;
+}
+.smallBox1 .smallP2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+}
+.iconBox{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+}
+.icon1{
+    margin-top: 3px;
+    width: 27px;
+    height: 47px;
+    background: url("../images/icon-phone.png") no-repeat 0 0;
+    }
+.icon2{
+     width: 54px;
+     height: 54px;
+     background: url("../images/icon-statistics.png") no-repeat 0 0;
+ }
+.smallP3{
+    font-size: 32px;
+    color: #333;
+}
+.smallP4{
+    margin-top: 15%;
+    font-size: 18px;
+    color: #333;
+    font-weight: normal;
+}
+.leftBox{
+    margin-left: 10%;
+  }
+.leftBox1{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.leftP2{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.rightBox{
+    margin-top: -12%;
+    margin-right: 10%;
+    width: 632px;
+    height: 560px;
+    background: url("../images/computer.png") no-repeat 0 0;
+}
+.box2 .p3{
+    margin-top: 20px;
+}
+.boxP{
+    color: #888;
+}
+.leftP3{
+    font-size: 24px;
+    text-align: center;
+}
+.leftP4{
+    font-size: 16px;
+    text-align: center;
+}
+.iconBox3{
+    text-align: center;
+}
+.icon3{
+    display: inline-block;
+    width: 45px;
+    height: 43px;
+    background: url("../images/icon-computer.png") no-repeat 0 0;
+}
+.icon4{
+    margin-left: 40px;
+    display: inline-block;
+    width: 48px;
+    height: 35px;
+    background: url("../images/icon-card2.png") no-repeat 0 0;
+}
+.icon5{
+    margin-left: 40px;
+    display: inline-block;
+    width: 47px;
+    height: 46px;
+    background: url("../images/icon-pay2.png") no-repeat 0 0;
+}
+.rightP1{
+    margin-top: 10%;
+}
+.rightP2{
+    margin-top: 40px;
+    font-size: 18px;
+}
+.rightBox2{
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+}
+.wordBox .boxP{
+    margin-top: 40px;
+    margin-bottom: 14%;
+}
+.boxIcon{
+    margin-top: -10%;
+}
+.boxIcon img:first-child{
+    margin-right: 20px;
+}
+.boxIcon img:last-child{
+    margin-left: 20px;
+}
+.pp1{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.bgw{
+    margin-bottom: 3%;
+    padding-top: 4%;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: #fff;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.bgwBox{
+    margin-bottom: -10px;
+}
+.bgw1{
+    padding-top: 4%;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: #fff;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.pp2{
+    margin-top: 40px;
+    font-size: 24px;
+    color: #6cbba4;
+    font-weight: normal;
+}
+.pp21{
+    margin-top: 50px;
+    font-size: 24px;
+    color: #6cbba4;
+    font-weight: normal;
+}
+.pp3{
+    margin-bottom: 40%;
+    font-size: 12px;
+    color: #888;
+    font-weight: normal;
+}
+.pp4{
+    margin-bottom: 41%;
+    font-size: 12px;
+    color: #888;
+    font-weight: normal;
+}
+.mg40{
+    padding-top: 4%;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.mg40 p:first-child{
+    font-size: 42px;
+}
+.mg40 p:last-child{
+    font-weight: normal;
+    font-size: 18px;
+}
+.bgw:hover{
+    box-shadow: 5px 10px 5px rgba(0,0,0,.2);
+}
+.bgw1:hover{
+    box-shadow: 5px 10px 5px rgba(0,0,0,.2);
+}
+.footer{
+    margin-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #888;
+    line-height: 30px;
+}
+.line1{
+    margin-top: 2%;
+    width: 100%;
+    height: 1px;
+    background: #eee;
+}
+footer p:last-child{
+    margin-top: 20px;
+}
+.active{
+    background: #131E26;
+    border-left: 4px solid #19a9d5;
+}
+
+
